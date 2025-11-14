@@ -1,0 +1,33 @@
+# Correction strategies configuration
+# This file contains settings for refining and correcting datasets based on metric results
+
+rewrite_model: openai/gpt-4.1-2025-04-14 # model to use for rewriting
+rewrite_attempts: 5 # number of attempts to rewrite the question
+
+# Difficulty correction strategy
+difficulty:
+  type: efficiency # efficiency | saturation | informative | none
+
+  min_discrimination: 0.0 # minimum discrimination value to keep (negative implies erroneous questions)
+  
+  efficiency:
+    max_size: 0.5 # proportion (float) or number (int) of samples to keep
+  informative:
+    max_size: 0.5 # proportion (float) or number (int) of samples to keep
+  saturation:
+    max_size: 0.5 # proportion (float) or number (int) of hardest samples to keep
+
+# Shortcuts correction strategy
+shortcuts:
+  type: rewrite # filter | rewrite | none
+  cutoff: 1.0 # what the score must be less than to be corrected
+
+# Contamination correction strategy
+contamination:
+  type: rewrite # filter | rewrite | none
+  cutoff: 1.0 # what the score must be less than to be corrected
+
+# Writing flaws correction strategy
+writing_flaws:
+  type: rewrite # filter | rewrite | none
+  cutoff: 1.0 # what the score must be less than to be corrected

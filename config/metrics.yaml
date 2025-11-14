@@ -1,0 +1,36 @@
+# Metrics evaluation configuration
+# This file contains detailed settings for each metric evaluation
+
+num_samples: null
+
+# Difficulty metric configuration
+difficulty:
+  models: [openai/gpt-5-2025-08-07, openai/gpt-5-mini-2025-08-07, openai/gpt-5-nano-2025-08-07, anthropic/claude-sonnet-4-5-20250929, anthropic/claude-haiku-4-5-20251001, google/gemini-2.5-pro, google/gemini-2.5-flash, google/gemini-2.5-flash-lite, openai-api/cohere/command-r-08-2024, openai-api/cohere/command-r-plus-08-2024]
+
+  # models: [google/gemini-2.5-flash-preview-09-2025, anthropic/claude-sonnet-4-5-20250929, openai-api/cohere/command-r-08-2024, openai/gpt-5-nano-2025-08-07]
+
+  # IRT model configuration
+  irt_model:
+    num_draws: 200
+    num_tune: 200
+    chains: 5
+    cores: 5
+
+  run_irt: true
+
+# Shortcuts metric configuration
+shortcuts:
+  model: openai/gpt-5-2025-08-07
+  attempts: 3
+
+# Contamination metric configuration
+contamination:
+  model: openai/gpt-5-2025-08-07
+  search_type: google
+  use_llm: true
+  attempts: 3
+
+# Writing flaws metric configuration
+writing_flaws:
+  model: null
+  attempts: 3

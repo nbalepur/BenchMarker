@@ -1,0 +1,32 @@
+[project]
+name = "mcqa-bench"
+version = "0.1.0"
+description = "MCQA Benchmark Project"
+requires-python = "==3.11.*"
+dependencies = [
+    "datasets==4.1.1",
+    "inspect-ai==0.3.132",
+    "jax>=0.4.0",
+    "jaxlib>=0.4.0",
+    "matplotlib>=3.7.0",
+    "numpy>=1.26.0",
+    "numpyro>=0.15.0",
+    "openpyxl>=3.1.0",
+    "pandas>=2.2.0,<2.3.0",
+    "pymc==5.25.1",
+    "python-dotenv==1.1.1",
+    "scipy==1.15.3",
+    "xarray>=2024.1.0,<2025.0.0",
+    "litellm>=1.0.0",
+    "openai>=1.0.0",
+    "google-genai>=1.47.0",
+    "anthropic>=0.72.0",
+    "cohere>=5.20.0",
+    "perplexityai>=0.12.0",
+    "tavily-python>=0.7.12",
+    "exa-py>=1.0.6",
+    "transformers>=4.40.0",
+    "torch>=2.0.0",
+    "accelerate>=1.0.0",
+    "bitsandbytes",
+]

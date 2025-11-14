@@ -1,0 +1,1001 @@
+question,choices,answer
+Where do you throw a ball down the lane?,"['city', 'basketball court', 'rural countryside', 'highway', 'bowling alley']",E
+It's rude to make loud noise and commentary while watching something where?,"['fair', 'carnival', 'classroom', 'bowling alley', 'movie theatre']",E
+Where do you throw garbage?,"['toronto', 'floor', 'trashcan', 'television', 'in your neighbours yard']",C
+"The annoying person always had a comment to share, he must think he must what?","['know everything', 'compliments', 'confidence', 'care about', 'spare time']",A
+Where could you have fun with lots of people around you?,"['good', ""friend's house"", 'fairgrounds', 'watching television', 'expensive']",C
+Why do people who are dying receive social security payments?,"['rejuvenation', 'born again', 'no longer exist', 'unable to work', 'change of color']",D
+Who has blood and parents?,"['person', 'bloodbank', 'vein', 'capillaries', 'hospital']",A
+Where might someone go after dealing with a passing sentence?,"['death', 'grief', 'appeals', 'anger', 'grammar']",C
+"If I'm at the doctor's office looking for a good title, what sort of story am I looking to read?","['book', 'magazine article', 'safe deposit box', 'hotel menu book', 'library']",B
+Where could you get something that is made out of wool but cannot be worn?,"['clothing store', 'sweater', 'fabric store', 'jewelry', 'clothing factory']",C
+Jenny doesn't like children. What might make Jenny like dislike children?,"['yelling', 'annoying', 'noisy', 'curious', 'innocent']",C
+Who can I play with if I know how to play an upright piano?,"['college', 'band', 'living room', 'military', 'house']",B
+"The grain-seller needed dry storage, where should he put it?","['pantry', 'storage closet', 'building', 'wet', 'warehouse']",E
+"When you see something rise, you are where in relation to it?","['sun set', 'near', 'fall', 'below', 'lower']",D
+Playing piano and other creative activities need what?,"['make music', 'inspiration', 'musical sounds', 'making music', 'dancing']",B
+Why would someone visit many stores before buying products?,"['online shopping', 'running out of money', 'debt', 'comparison shopping', 'overstocking']",D
+What causes someone to laugh from something surprising?,"['fight', 'accidents', 'bad news', 'funny', 'frightened']",D
+John plays chess with his roommate They make one move each between classes.  Where is his chess set most likely set up?,"['canada', 'cupboard', 'dorm', 'sitting room', 'drawer']",C
+"After waiting in long lines at the airport he finally got to the ticket checker, he got out his billfold to show his ticket and what?","['wallet', 'mans pocket', 'identification', 'money', 'hip pocket']",C
+Where would one find a snake in a swamp?,"['oregon', 'mud', 'tropical forest', 'pet store', 'louisiana']",E
+What do you normally get out to get yourself a drink?,"['bucket', 'backpack', 'getting drunk', 'cup', 'cabinet']",D
+"My uncle was getting a divorce, where did he leave?","['most families', 'act in loco parentis', ""aunt's house"", 'grandmas', 'older generation']",C
+When is food never cold?,"['prepared', 'hot', 'baking', 'amiable', 'cooking']",C
+At a shop what can you buy to put your spare unused things?,"['basement', 'cardboard box', 'ocean floor', 'high school', 'container']",E
+What do you do when your friend needs someone to help them move next week?,"['rely on', 'promise to help', 'pretend to be busy', 'offer to help', 'write letter']",B
+What is likely to happen to a snowman that is getting wet?,"['cool off', 'could', 'shrinking', 'get cold', 'get larger']",C
+"The farmer was scooping out eyes to plant in the ground, what was he scooping them from?","['elephant', ""person's head"", 'potato', 'faces', 'mammal']",C
+"The flooring was a good bargain, you got a bigger discount the bigger the what?","['bundle', 'loft', 'charming', 'home depot', 'house']",A
+Where is tin stored forever?,"['shopping bag', 'hardware store', 'landfill', 'junk yard', 'antique store']",C
+John lived in a small island surrounded by flowing liquid H2O   Where might he live?,"['japan', 'hawaii', 'mississippi river', 'pacific ocean', 'body of water']",C
+Why would someone be listening?,"['empathy', 'thirsty', 'hear things', 'knowlege', 'learning']",C
+When going to sleep what happens to your body?,"['snoring', 'latency', 'dreams', 'relaxation', 'dreaming']",D
+Where do kids like to hang out to watch tv and avoid their parents in the house?,"['basement', 'kitchen', 'rooms', 'den', 'yard']",A
+what does having sex without protection lead to?,"['sexually transmitted diseases', 'making babies', 'bliss', 'aids', 'unwanted pregnancy']",E
+Devil's food is something you can win at what fundraising game popular at churches?,"['satanism', 'angel', 'yoke devil', 'cakewalk', 'god']",D
+Where do you hang notes in the kitchen?,"['fridge', 'sheet music', 'medical chart', 'from a hook', 'desk']",A
+"The principal encourage everyone to try hard in school, what did he want them to do?","['number list', 'do well', 'wear shoes', 'play computer games', 'hope for peace']",B
+"The teams were evenly matched when competing against one another, what did spectators want to find out?","['envy', 'resentment', 'winning or losing', 'one winner', 'two winners']",C
+"The woman was worried about environmental impact, what did she fret over while attempting to wash clothes?","['pick up', 'use water', 'use soap', 'get dirty', 'gather up']",B
+When competing against a fighter with better training you'll likely get a what?,"['pride', 'free hat', 'emotions', 'injury', 'one winner']",D
+All the power tools like the drill used for fixing cars made for a very loud workplace where?,"['basement', 'work shop', 'tool shed', 'repair shop', 'store room']",D
+Where is somewhere you stop to go to the bathroom when on the road?,"['school', 'rest area', 'at hotel', ""friend's house"", 'educational area']",B
+Where do you live if there are a lot of mailboxes in the foyer?,"['spacious house', 'mansion', 'building', 'apartment', 'townhouse']",D
+"The CEO's curiosity about the product got the best of her, so she decided to do what with it?","['hear news', 'purchase it', 'examine thing', 'attend school', 'go to market']",E
+What happens to the conscience of someone who has been caught committing a murder?,"['jail time', 'fear', 'going to prison', 'nothing', 'feeling of guilt']",E
+"The house had expensive insurance, this was because the what had an established history of flooding?","['residential area', 'kitchen', 'basement', 'yard', 'living room']",C
+"If people are informed of an imminent war, what do they do next?","['believe in god', 'worship idols', 'hope for peace', 'form opinions', 'buy tanks']",C
+"Where would people be looking at some things which can move, but are not moving?","['football stadium', 'surface of earth', 'car show', 'opera', 'movie']",C
+"The playroom had many classic toys, the child spilled out each and every plastic monkey out of the what?","['captivity', 'puzzle', 'barrel', 'thailand', 'rain forest']",C
+John stood in the courtyard and watched the bulls.  Where might he have been?,"['lawn', 'spain', 'tv room', 'versailles', 'english countryhouse']",B
+"Susan was an ordinatry person, but her skills were not ordinary, they were what?","['exceptional', 'strange', 'spectacular', 'unusual', 'special']",A
+Where would kids walk to if it hot outside?,"['lake', 'toy store', 'swimming pool', 'park', 'disneyland']",C
+"The couple had been copulating seemingly non stop, eventually they finally had a what?","['intense pleasure', 'period of rest', 'babies', 'conversation', 'skin irritation']",B
+What is the purpose of playing games for children?,"['winning', 'learning', 'losing', 'fatigue', 'skill']",B
+Where does a potato enlarge?,"['garden patch', 'ireland', 'vegetable stew', 'grocery store', 'optical device']",A
+What does a parent tell their child to do after they've played with a lot of toys?,"['go to bed', 'become adult', 'read book', 'grow up', 'clean room']",E
+Sally appreciated discovering the truth.  After so much worry at gave her what?,"['enlightenment', 'happiness', 'conclusion', 'relief', 'excitement']",D
+James picked glass walls because they let more light into the room. Why did they let light in?,"['inventive', 'half empty', 'recyclable', 'clear', 'very fragile']",D
+The key to happiness while living life is to do more than what?,"['existing', 'happiness', 'early death', 'acquiring knowledge', 'being idle']",A
+"If I wanted to see a lizard in its natural habitat but I do not speak Spanish, where would I go?","['utah', 'south america', 'new hampshire', 'japan', 'new mexico']",A
+What are all living things that have at least one nerve called?,"[""person's body"", 'brainstem', 'organism', 'turtles', 'fingertips']",C
+"She got in the car after becoming inebriated, what did she cause afterwards?","['fall down', 'arrest', 'pass out', 'flew out', 'death and destruction']",E
+The glass window was transparent and thin.   James leaned on ed on it and it cracked.  It was what?,"['soft', 'clear', 'half empty', 'recyclable', 'very fragile']",E
+"She left the states and traveled across the pond, her next art gallery was in what city?","['soho', 'london', 'art museum', 'new york city', 'on a mural']",B
+"Sharks can be dangerous to encounter, they can be found in each of the whats?","['great oceans', 'tropical waters', 'sea world', 'great outdoors', 'lake michigan']",A
+What can be the result of having an unhealthy lunch?,"['become tired', 'spending money', 'obesity', 'obesity', 'heartburn']",E
+"He liked his indoor ficus, he simply had to keep it watered and near a what?","['tropical forest', 'ecosphere', 'sunny window', 'sun', 'tropical rainforest']",C
+"When you are relaxing with friends, what are you doing if you discuss anything?","['side with', 'hang out', 'go to the movies', 'understand each other', 'talking about']",E
+What kind of status is the bald eagle given?,"['outside', 'world', 'protection', 'colorado', 'america']",C
+What about you will decrease after you exercise for many months?,"['work out', 'blood', 'expend energy', 'stretch', 'weigh']",E
+You are seeking to provide yourself what when you're applying for a job?,"['work', 'employment', 'income', 'hope', 'offer']",C
+Where could you find a barbershop that is not in a separate building from other stores?,"['hair salon', 'small town', 'shopping mall', 'village', 'city']",C
+In what society did slaves outnumber the citizens?,"['poor countries', 'ancient rome', 'plantation', 'dungeon', 'canada']",B
+The committee had its first meeting.  John was glad to be a part of it.  This is what he ran for.  Where might the meeting be?,"['church', 'city hall', 'school', 'boardroom', 'office building']",B
+"Tired of his sickness, what did the man seek as he visited various doctors?","['being well', 'wounds', 'cause person to hoarse', 'healthy', 'healthiness']",E
+Where would you go if you need a hardware store?,"['washington', 'sears', 'small town', 'oregon', 'canada']",B
+What do people call it when they are going for run?,"['trip', 'running in', 'working out', 'get tired', 'falling down']",C
+What do people do if they are near the sea?,"['write stories', 'talk to each other', 'go fishing', 'die of starvation', 'eat fish']",E
+"James went to outer space for the first time.  He packed everything, including his peanut butter, into a single object.  Where might his things be?","['universe', 'jar', 'box', 'closet', 'suitcase']",E
+"The old man would be stuck staying in bed, part of the nurse's job was to move him so he wouldn't get what?","['bed sores', 'missing out', 'nervous', 'comfort', 'resting']",A
+Other than a refrigerator or a market where would you find fish?,"['mirach', 'stream', 'refrigerator', 'market', 'aquarium']",B
+What does someone who likes to hear someone play violin enjoy?,"['like music', 'inspiring', 'make music', 'learn how to play', 'ears']",A
+What lawn is most likely to be on a street?,"['green yard', 'suburbia', 'golf course', 'front yard', 'michigan']",D
+Why does having a disability sometimes making academic tasks hard for a person?,"['mentally challenged', 'have choice', 'lots of space', 'hungry', 'acknowledgment']",A
+If you were lazy you'd probably choose to just watch television simply because what?,"['entertained', 'see favorite show', 'plug in', 'get comfortable', ""you're bored""]",E
+What new things can lead to understanding better?,"['interest in', 'coffee table', 'increase knowledge', 'ideas', 'wisdom']",D
+What is something that would become uninhabited if it did not have a queen?,"['castle', 'bee hive', 'beehive', 'england', 'a drag show']",B
+What does exercising immediately lead to?,"['relaxation', 'exhaustion', 'energetic', 'become stronger', 'use energy']",B
+What would sex in a happy relationship be called?,"['nice act', 'wonderful thing', 'making love', 'last hour', 'feel good']",C
+"The construction manager was communicating to the concerned financiers of the building, what was he briefing them on?","['collaboration', 'progress', 'bulldozer', 'exchanging ideas', 'static']",B
+"The professor spoke in a reserved, conservative, and laconic tone, what kind of language was he avoiding?A","['bombastic', 'loquacious', 'verbose', 'talkative', 'prolix']",B
+"Greg wasn't interested in academics or history, so when he was visiting the museum with his class he was crushed by what feeling?","['inspiration', 'itchiness', 'enjoyment', 'boredom', 'sore feet']",D
+"Joe was a weasel, but he wasn't the sort who you kept was a pet.  He was the sort that used complex words that carried multiple different meanings.  Where might you find Joe","['chicken coop', 'law firm', 'classroom', 'terrarium', 'museum']",B
+What is a place that has large cable hanging overhead?,"['radio shack', 'electrical device', 'shower', 'substation', 'television']",D
+Where might customers go to walk around?,"['mall', 'park', 'market', 'found in restaurant', 'bookstore']",A
+Shopping all day is likely to lead to?,"['obesity', 'bankruptcy', 'debt', 'tiredness', 'calluses']",D
+Why do people engage in chatting with friends in class?,"['necessity', 'answers', 'inspiration', 'love', 'fun']",B
+How may one feel after playing games for a long time?,"['fatigue', 'happiness', 'bournout', 'learning', 'losing']",A
+The president keeps his pajamas where?,"['white house', 'corporation', 'closet', 'country', 'government']",A
+Little cameras in the car made doing what easier?,"['technical difficulties', 'heat up', 'carpooler', 'set off', 'back up']",E
+Where can you buy lettuce directly from the grower?,"['supermarket', 'grocery store', 'salad', ""farmer's market"", 'refrigerator']",D
+In what kind of environment does an anemone live?,"['nursery', 'south pacific', 'desert', 'sea water', 'atlantic ocean']",D
+Alcoholic refreshments are sometimes banned in what public places?,"['homeless shelter', 'bar', 'park', 'bridge', 'school']",C
+What would use a musical instrument?,"['guitar', 'music room', 'orchestra', 'case', 'movie']",C
+Two people were grooming each other in anticipation of a party.  Why might they be grooming?,"['looking pretty', 'positive', 'late', 'get', 'unclean']",A
+Where is a ferret getting lots of attention likely to be found?,"['trouser leg', 'sick bay', 'own home', 'petting zoo', ""mother's hair""]",D
+"Brian  took the tool  from the shelf. He thought no one noticed.  As he was talking out, the cashier told him to do what to it?","['drop', 'bring', 'move slowly', 'caretake', 'give']",A
+Where might someone play with a frisbee?,"['golf course', 'park', 'roof', 'air', ""deadhead's van""]",B
+What is a train-related expression for exhaustion?,"['have rest', 'run out of steam', 'go to sleep', 'tuckered out', 'stay in bed']",B
+The helm is the steering control of what powered leisure vessel?,"['motorboat', 'south tyrol', 'tugboat', 'brig', 'sailing vessel']",A
+What would happen if you are having a good time while chatting with friends?,"['agreement', 'communication', 'love', 'happiness', 'discord']",D
+"I saw the receptionist carelessly toss my resume into the drawer, where did I want it to end up?","['file cabinet', 'nightstand', 'kitchen cabinet', 'office desk', 'the floor']",D
+You will find many a cannon on what vessel full of criminals?,"['jail', 'fort', 'war museum', 'pirate ship', 'warship']",D
+What is a positive effect of expressing yourself?,"['empowerment', 'misunderstanding', 'embarrassment', 'repercussions', 'falling down']",A
+I had to go somewhere involuntarily is the same as?,"['arriving', 'might drive car', 'drive', 'stumbling down', 'get somewhere']",D
+What happens when someone trips when going for run?,"['falling down', 'sweating', 'get tired', 'flying', 'working out']",A
+"The people began thanking each other, and they sealed the deal by doing what?","['feel good', 'appreciation', 'kissing', 'shake hands', 'smile']",D
+Which group of states is Louisiana part of?,"['deep south', ""98 of world's crayfish"", 'united states', 'gulf states', 'bible belt']",D
+"She couldn't wait to see the performance, she stood in the line for the box office where?","['theatre', 'venue', 'theater district', 'movie theater', 'ballpark']",A
+"They say dogs are a man's best friend, this is because of dog's pack mentality and being what?","['four legs', 'frightening', 'found outside', 'tail', 'faithful']",E
+Climbing a hill can give you a good way to survey what?,"['great outdoors', 'the clown', 'virginia', 'landscape', 'countryside']",D
+James wanted to know the truth because questions were weighing on him.  Learning would give him what?,"['lies', 'free mind', 'work to advantage', 'further knowledge', 'matter to']",B
+"Sam wasn't lying, but he left out important details. He was being what?","['dishonesty', 'deceitful', 'imagination', 'deceptive', 'poker face']",B
+"Someone is putting is carpeting that can handle shoes and heavy foot traffic, where is it being installed?","['gym', 'home or office', 'bedroom', 'church', 'houses']",A
+What should everyone do who doesn't want to fight anymore?,"['explicate', 'pay tribute to king', 'hope for peace', 'wear shoes', 'do well']",C
+"Though a mouse might prefer your house, you might also see him where?","['tin', 'department store', 'garden', 'small hole', 'cupboard']",C
+Where did the group of in crowd guys throw their big party on campus?,"['fraternity house', 'neigborhood', 'ce ebrating mothers birthday', 'home', ""friend's house""]",A
+"Life goes different ways for different folks, sometimes good friends have to what?","['comfort', 'keep secrets', 'leave', 'eat cake', 'part ways']",E
+What do people with a lot of money do?,"['shake hands', 'pay bills', 'work hard', 'talk to each other', 'own property']",E
+"John hated getting in line, but he wanted anyway.  Not breaking line was just what?","['agitation', 'common sense', 'civil', 'fatigue', 'longer lines']",B
+"am was a pretty bad neighbour.  He was annoying, and considered to be a what?","['distant', 'foe', 'bore', 'remote person', 'hermit']",C
+The ground floor of what structure would contain workers in suits and ties?,"['brownstone', 'highrise building', 'hotel', 'school', 'office building']",E
+If you exercise intensely what can happen to your respiration?,"['tiredness', 'shortness of breath', 'injury', 'fitness', 'thirst']",B
+A lot of people who wrestle are very?,"['train yourself', 'have strength', 'choke hold', 'strong', 'take lessons']",D
+"If the world is materials, what is it made out of?","['fabric store', 'ideas', 'anything', 'physical world', 'science lab']",C
+"When an elderly person needs help performing daily tasks, who might they call?","['creativity', 'hatred', 'caregiver', 'own house', 'much money']",C
+If a person is on vacation what are they likely to achieve?,"['feel pleasure', 'look attractive', 'interesting experiences', 'compliments', 'relaxation']",A
+What could happen after you start family due to babies crying?,"['regret', 'stressed', 'have sex', 'need more money', 'spend money']",B
+Where can you buy shampoo along side items for nourishment?,"['hair salon', 'cabinet', 'supermarket', 'big box stores', 'at hotel']",C
+If a mechanic attaches a chain to your bumper what is he likely driving?,"['obesity', 'bicycle', 'motorbike', 'jewelry store', 'tow truck']",E
+"If you really wanted a grape, where would you go to get it?","['winery', 'fruit stand', 'field', 'kitchen', 'food']",B
+What does everyone feel of monsters?,"['looking for love', 'afraid of', 'good at', 'make pet', 'different']",B
+Where are unwanted advertisements often delivered to a home?,"['mail box', 'subway', 'mail bags', 'yard', 'television']",A
+What leads a company to get in trouble?,"['mail order', 'branch out', 'commit crime', 'liquidated', 'procure']",C
+How would chicken be served?,"['freezer', 'eaten', 'plate', 'fast food restaurant', 'dish']",C
+Where would a soprano sing live for money?,"['opera house', 'movie', 'choit', 'theater', 'choir']",A
+What is a lover likely to want to do with their partner?,"['build family together', 'fall in love', 'make love', 'complete', 'distance themselves']",C
+"After a while playing, what was happening to the children?","['fights', 'competitiveness', 'having fun', 'getting tired', 'learning']",D
+Where would you go if you want to get a newspaper with a specific title?,"['library', 'magazine article', 'archives', 'safe deposit box', 'page']",A
+who uses a contraceptive device?,"['pharmacy', 'bedroom', 'person', 'men', 'drug store']",C
+"Computers have always been cutting edge technology, so they what?","['networked', 'connect', 'cost money', 'do work', 'teach']",C
+"It was my turn to stand watch, so where did I go for my shift?","['department store', 'bathroom cabinet', 'bedroom drawer', 'guard tower', 'jewellers']",D
+"The ticket booth informed riders that the train was running late, so where was the ticket booth located?","['movie theatre', 'sports arena', 'school', 'metro station', 'auditorium']",D
+When people are overly drunk how do the seem to others?,"['disoriented', 'appear ridiculous', 'walk off', 'throw up', 'raise hell']",B
+"The person was cold and wet, where should he go?","['building', 'back home', 'hospital', 'demonstration', 'bus stop']",A
+The ECB was focused on fighting inflation without concern for other issues.  This obviously caused what?,"['celebration', 'deflation', 'recession', 'spend more', 'problems']",E
+Sam went climbing but wasn't good at it. He was nimble and had what?,"['fingers', 'dexterity', 'skill', 'muscles', 'strength']",B
+If you are going public store when sad how many you feel?,"['sorrow', 'embarrassment', 'pain', 'sleepy', 'panic']",A
+"The monger removed the bone, what was he looking to serve?","['octopus', 'fresh fish', 'skeleton', 'human body', ""dog's mouth""]",B
+"They decided to hash things out over drinks, after enough booze they were able to get close on a few things and what?","['reach tentative agreement', 'suicide', 'examine thing', 'commit murder', 'stay in bed']",A
+"The seafood restaurant specialized in fresh caught Atlantic fish, but a controversy arose that it was getting them from the grimy rivers around where?","['new york', 'city', 'industrial district', 'coastal cities', 'boston']",A
+What might be the result of going to market?,"['meeting new people', 'tedium', 'buy things', 'eating samples', 'bankruptcy']",A
+How are people not likely to find those always holding  a remote?,"['attached', 'lovable', 'companionable', 'close', 'likely']",C
+Where is a crab likely to enjoy it's food?,"['fish market', 'chinese market', 'delicious meal', 'tidal flats', 'crabcakes']",D
+"The potatoes were ordered by the chef, where did they end up?","['restaurant', 'baked', 'fried', 'plate', 'countryside']",A
+"When doing housework, what would be most useful to clean the patio?","['mop', 'mobility', 'vacuuming', 'toothbrush', 'broom']",E
+A surface that doesn't have a slope would be what?,"['flat ground', 'downhill', 'straight', 'slanted', 'slopewash']",C
+What is required for someone to be chatting with friends?,"['going to school', 'phone', 'socialcapabilities', 'having friends', 'computer']",D
+What is a person using their whole body for work likely to complain of?,"['aching back', 'make mistakes', 'big muscles', 'lower back pain', 'sore muscles']",E
+Where can you get a night table to take home?,"['hallway', 'homes', 'junk drawer', 'hotel', 'furniture store']",E
+What form of government is most associated with kingdoms?,"['monarchy', 'ruled by government', 'europe', 'book', 'king']",A
+Where would one find a shopping bag for packing groceries?,"['supermarket', 'home', 'closet', 'mart', 'hardware store']",A
+Where would you hit a ball with a stick into other balls?,"[""child's hand"", 'pool table', 'street', 'toy box', 'soccer field']",B
+"The book had deep meaning to the businessman, he always kept a copy of it beneath all his work in his what?","['shoe box', 'suitcase', 'synagogue', 'briefcase', 'backpack']",D
+What do people consider chatting with friends when there is work to do ?,"['misunderstanding', 'silliness', 'laughter', 'learning about', 'idleness']",B
+Where is a good place to plant an apple tree you just bought?,"['pennsylvania', 'across the street', 'front yard', 'countryside', 'park']",C
+"My favorite type of entertainment are rollercoasters and ferris wheels, where should I go?","['theatre', 'fairgrounds', ""friend's house"", 'show', 'casino']",B
+Where are leaves likely to cause an accident?,"['roof', 'ground', 'trees', 'field', 'street']",E
+Why might a person take a vacation?,"['relaxation', 'good things in life', 'admiration', 'own house', 'needs money']",A
+"She had seen over 50 marble fountains that day, where was she?","[""lenin's crypt"", 'front of casino', 'rome', 'public place', 'city']",C
+"Prescriptions being the specialty the store charges higher prices for most other goods, I'd be paying for convenience if I bought a hair dryer where?","['drug store', 'high end store', 'beauty salon', 'box', 'bathroom']",A
+Where would you find a tennis court made from red clay?,"['new york', 'wimbledon', 'town', 'country club', 'health club']",B
+"Where can you get on a highway in San Diego, Omaha, and Atlanta?","['repairs', 'desert', 'atlas', 'united states', 'countryside']",D
+What might be felt by a crowd during an intense competition?,"['tension', 'argument', 'sore muscles', 'stress', 'enemies']",A
+What can happen after setting a cup on a table many times?,"['noise', 'spillage', 'clutter', 'picks up', 'it will get cold']",C
+What do most companies not want to have relative to demand?,"['oversupply', 'plentitude', 'stockpile', 'superabundance', 'busy']",A
+"His system wouldn't boot, he decided to buy a whole new one where?","['place', 'computer store', 'computer science', 'human body', 'online']",B
+What the positive consequences of drinking alcohol?,"['have fun', 'death', 'frequent urination', 'slurring words', 'sickness']",A
+What doorway is likely to have a large wooden door?,"['home', 'airport', 'skyscraper', 'castle', 'every building']",D
+"The woman experienced great joy, but despite that this was a what?","['misery', 'sadness', 'bad time', 'sorrow', 'play time']",C
+How might a person address someone who is leaving?,"['further cause', 'wave goodbye', 'attempt suicide', 'insulting them', 'thank god']",B
+"When people social at a bar, the bartender will often do what to the cocktails they serve?","['meet people', 'have friends', 'mix', 'with people', 'see people']",C
+If you drink too much liquor you are likely to do what?,"['stumble', 'food', 'coffee', 'throw up', 'choke']",D
+Where could you be if you are sit quietly?,"['sit down', 'lay down', 'alone', 'go home', 'meditate']",C
+Where do you get your teeth drill?,"['garage', 'army', 'basement', 'dentist office', 'repair shop']",D
+"My house is very dry, with little water in the air. What tool should I use to fix this?","['humidifier', 'surface of earth', 'skating rink', 'ice cube', 'burn it to the ground']",A
+What do you do to meet interesting people?,"['online date', 'socialize', 'explore', 'friendly', 'say hello']",B
+What regions of a town would you have found a dime store?,"['commercial building', 'old movie', 'small neighborhood', 'past', 'mall']",C
+Punishing physical jobs make people want to do what regarding exercise?,"['procrastinate', 'avoid', 'yell at', 'being nasty', 'ignore']",B
+"Babies don't make the same noise adults make when applauding, but they still do what when excited?","['sleep soundly', 'trust parents', 'clap hands', 'jump around', 'like spinach']",C
+What could prevent someone from starting to dance?,"['becoming tired', 'sore feet', 'sweat', 'wearing beads', 'having fun']",B
+The football field was all ready for Friday night at the local what?,"['university', 'high school', 'city', 'college campus', 'excrete']",B
+"The old man had a bad back, what did doing housework do to him?","['allergies', 'boredom', 'pride', 'pain and suffering', 'cleanliness']",D
+"John was driving to work and running late, what did he feel?","['anxiety', 'boredom', 'pressure', 'getting there', 'stress']",E
+Children's behavior is a direct reflection of their what?,"['parents', 'old people', 'play ball', 'many adults', 'grown ups']",A
+What could you be doing if you are relaxing and are awake but have your eyes closed?,"['read book', 'listening to music', 'falling asleep', 'watching tv', 'reading']",B
+What can be seen from the earth?,"['surface', 'sun', 'one moon', 'gravity', 'four seasons']",C
+What sense does jumping rope give you?,"['being happy', 'sense of smell', 'become tired', 'sweating', 'sense of rhythm']",E
+If I was using a hairpin on a female customer where do I need to put it?,"[""woman's hair"", 'hair salon', 'bathroom cabinet drawer', 'forehead', 'barber shop']",A
+Where can I store this clean fork if I am not presently using it?,"['in a box', 'plane', 'kitchen drawer', 'table', 'plate']",C
+"Attending meeting was his priority, he had to get a good what?","['understanding', 'start', 'getting information', 'result', 'fall asleep']",D
+What do you want to prevent after you get an injury?,"['for it to become worse', 'become infected', 'hurts', 'cause bleeding', 'cause death']",B
+"If person goes to a bar, spends a few hours hitting the bottle, then takes himself home, what might he get?","['full bladder', 'ticket', 'alcoholism', 'nausea', 'breaking']",B
+After working out and releasing energy all day how are you likely to feel?,"['being fired', 'wonderful', 'exhaustion', 'damage', 'feeling cold']",C
+When making a list what comes after the main item?,"['minor', 'impossibles', 'secondary', 'maintopmast', 'peripheral']",C
+What does an emotional person tend to be?,"['expressive', 'excited', 'drunk', 'headache', 'eat every day']",A
+What is something that people do early in the day?,"['believe in god', 'make tools', 'skydive', 'smoke pot', 'eat eggs']",E
+What might have a ground floor?,"['closet', 'desk', 'tile', 'house', 'table']",D
+"The graveyard was zoned by the pastor, where was it located?","['church property', 'every town', 'church grounds', 'cattle yard', 'arlington']",A
+What can sex often be?,"['nice', 'good', 'dirty', 'great fun', 'eventful']",D
+"The man sat down at the piano and played the A note for others to emulate, who was he with?","['music room', 'symphony orchestra', 'church', 'athletes', 'concert hall']",B
+What should my family and I look into getting if we don't want an egg from the supermarket?,"['farm', 'henhouse', 'chicken coop', 'plate', ""bird's nest""]",B
+"Football fans were storming the ticket booth, where were they?","['at a', 'movie theatre', 'clerk', 'metro station', 'sports arena']",E
+"They may be out of bed, but for some they don't what until they eat breakfast?","['set an alarm', 'open mouth', 'prepare breakfast', 'wake up', 'buy food']",D
+"The swimming pool couln't be refilled due to drought regulations, where was it located?","['ymca', 'california', 'park', 'first floor', 'school']",B
+Why does this person eat so much?,"['gain weight', 'promise to do', 'catch cold', 'finish food', 'fear death']",A
+"So as not to disrupt instruction, there were always spare pencils in the what?","['on teachers desk', 'cabinet', 'classroom', 'backpack', 'store']",C
+"If you like learning about science, you are all?","['frustration', 'experiment', 'invent', 'smiles', 'gain information']",D
+What gets rid of a mundane routine?,"['sophisticated', 'imprevist', 'arcane', 'heavenly', 'new']",E
+What do you do after you reproduce?,"['accidently got pregnant somehow', 'have children', 'raise children', 'offspring', 'extra copies for gang']",C
+"When someone is watching a film that is a documentary, what are they hoping to gain?","['like', 'insight', 'fear', 'being entertained', 'awareness']",B
+Hunger is an effective motivator for what?,"['spend money', 'eat quickly', 'taco tuesday', 'begin work', 'have lunch']",D
+Where could you find some airplanes that are not being used?,"['war', 'aircraft carrier', 'sky', 'graveyard', 'crash']",B
+When people get older what happens to their hair?,"['long or short', 'curled', 'very thin', 'coloured', 'lightweight']",C
+What is a place that has only one ceiling and which could be on ground level?,"['house', 'building', 'loft', 'classroom', 'airplane']",D
+"The tennis court enjoyed older, more refined clientele, where was it located?","['wimbledon', 'park', 'health club', 'high school', 'college campus']",C
+What is my biggest fear when opening a business?,"['making money', 'stress', 'too many customers', 'failure', 'success']",D
+"Billy likes eating breakfast in bed, but he doesn't do it often.  He likes his clean sheets too much. Why doesn't he eat breakfast in bed that often?","['pleasure', 'indigestion', 'convenience', 'spills', 'feel guilty']",D
+Where is a stereotypical place you would find police?,"['town', 'wrong place', 'donut shop', 'station', 'direct traffic']",C
+John hated lying.  It made him do something.  What did lying make him do?,"['avoid eye contact', 'feel guilty', 'blush', 'turn purple', 'fall asleep']",B
+Where is a very bad place for bad bacteria?,"['sores', 'septic tank', 'petri dish', 'mouth', 'finger']",D
+What might a person heading overseas do?,"['shout at', 'feel happy', 'cross street', 'board ship', 'get pasport']",D
+"In the morning you return to work, in the evening you?","['get life', 'go to meeting', 'get out of bed', 'dressed', 'leave work']",E
+Why might someone without much to do keep driving?,"['boredom', 'enjoy', 'moving', 'fatigue', 'injuries']",A
+"John likes Disney films and there was nothing good on, so he decided to see what?","['disneyland', 'movie', 'drawer', 'cabinet', 'microwave']",B
+Where can a human take flight?,"['school', 'aircraft', 'band', 'factory', 'car']",B
+"When traveling, where is someone most likely to find mirrors on the ceiling?","['car', 'at hotel', 'bedroom', 'dressing room', 'a bar']",B
+If I want to watch a movie without leaving my home what might I use?,"['drive in movie', 'drive in movie', 'television', 'video store', 'show']",C
+What will happen if you inject water into yourself?,"['dilute', 'thin blood', 'take several forms', 'wet clothes', 'move mountains']",B
+What do you have to do to get something from a store?,"['steal', 'purchase', 'work hard', 'proactive', 'reach for']",B
+What might happen to someone if they were found guilty of committing perjury?,"['embarrassment', 'mistrial', 'going to jail', 'laywer', 'tension']",C
+What can happen to a dog wiggling during grooming?,"['injury', 'mistakes', 'late', 'pain', 'beauty']",A
+What city is likely to have a tearoom?,"['tea shop', 'london', 'restaurant', 'building', 'england']",B
+Where could you find super computers?,"['library', 'post office', 'university', 'technical store', 'large city']",C
+"When a person drinks, becoming inebriated, how are they likely to move?","['jumping', 'drunkenness', 'paralysis', 'staggering', 'fights']",D
+"The student had difficulties reading, he would furrow his brow while doing what on a line of the book?","['concentrating', 'concentration', 'acquiring knowledge', 'sleeping', 'written material']",A
+The oven was left open after turning off to do what?,"['roast', 'baking food', 'cool temperature', 'heat', 'bake']",C
+"James and Holly were getting a divorce. They didn't like it, but they needed it.  What might they be trying to avoid?","['being single', 'tears', 'children suffer', 'anger', 'no spouse']",C
+"If a person throws a coin in the water, where is that person likely?","['ocean', 'in a car', 'wishing well', 'lake or river', 'rain cloud']",C
+What do people do when they don't understand something?,"['ask questions', 'experience joy', 'believe in god', 'talk to each other', 'get sick']",A
+"If there is a pond with tall building around it, where is it unlikely to be?","['town', 'forest', 'countryside', 'rural area', 'park']",D
+What do children like to do in the car?,"['throw things', 'say the alphabet', 'hear stories', 'play with toys', 'play games']",D
+What could have a knob but not a display?,"['television', 'control panel', 'opening doors', 'hardware store', 'hardware']",B
+Other than women's leggings what is commonly made of nylon?,"['drawer', 'many products', 'stockings', 'rope', 'shoes']",D
+"A person broke up with me, what do I have now?","['annoyance', 'hospitalized', 'schizophrenia', 'broken heart', 'stress']",D
+"He was washing hands, what happened to his hands as a result?","['jazz hands', 'health', 'become wet', 'skin irritation', 'dry skin']",C
+Where could you hear an organ being played?,"['system', 'veterinarian', 'human body', 'cathedral', 'music store']",D
+What in a car could have an led?,"['electronics', 'dashboard', 'electronic equipment', 'display', 'pc board']",B
+Where do people go to see animals?,"['surface of earth', 'state park', 'zoos', 'laboratory', 'garden']",C
+They party animals starting drinking in the evening and weren't done until when?,"['afternoon', 'dusk', 'daytime', 'night', 'dawn']",E
+"Males can sometimes have explicit fantasies while sleeping, this can lead to what stiff situations?","['nightmares', 'death', 'desires', 'erections', 'dreams']",D
+"Playing poker can be casual, but for others they play in tournaments for the prizes and challenge of what?","['fun', 'casinos', 'competition', 'social event', 'losing money']",C
+John loves to eat baked potato but he doesn't have time to cook. Where might he go for potatoes?,"['restaurants', 'pantry', 'store', 'root cellar', 'casserole']",A
+John thought that using television is different from listening to radio. How is television different from radio?,"['visual', 'conformity', 'audio', 'entertained', 'laziness']",A
+"The Blowfish make music for their lead, they are a what?","['rock band', 'sea of japan', 'atlantic ocean', 'fish market', 'seafood']",A
+Where is a tin likely to have food in it?,"['pizza hut', 'hardware store', 'grocery store', 'antique store', 'cupboard']",C
+Where would you hear a viola along side many other string and brass instruments?,"['symphony', 'band', 'create music', 'orchestra', 'string quartet']",D
+What would you most likely use a blower to remove snow from?,"['canada', 'ground', 'mountains', 'surface of earth', 'yukon']",B
+"She let him know he was being over the top, and that his antics where a little what?","['much', 'plenty', 'larger', 'lot of', 'big']",A
+"Seeing idea become reality was a dream of hers for a long time, but as the time came to get on stage she had more what?","['build', 'anxiety', 'celebrate', 'very nice', 'ocean']",B
+Kissing is normally an activity reserved for your romantic what?,"['anus', 'partner', 'arousal', 'trust', 'cooperation']",B
+Where are you not likely to find an apple tree?,"['new york', 'washington state', 'valley', 'rainforest', 'park']",A
+Where are floors kept clean for holy purposes?,"['restaurant', 'basement', 'all buildings', 'carpet', 'synagogue']",E
+What does someone do to win while competing?,"['sweat', 'perform better', 'tension', 'winning or losing', 'win']",B
+Where would you find a window in a house?,"['front door', 'space shuttle', 'wall', 'office', 'car']",C
+Where would you put a rubber stamp after using it?,"['desk', 'art class', 'office', 'table', 'indiana']",A
+"He was suffering from boredom, the security guard would let him grind his favorite spot on his what?","['meet interesting people', 'listen to music', 'deck', 'play cards', 'skateboard']",E
+"The jeweler was impressed by the quality of the diamonds, why was he so impressed?","['rare', 'pretty', 'shine', 'clear', 'translucent']",D
+Where would you put your change if you will not need to use it soon?,"['purse', 'slot machine', 'jar', 'pocket', 'casino']",C
+What does hearing someone play violin beautifully make you?,"['buy earplugs', 'inspiring', 'guitar', 'make music', 'like music']",B
+"The people wanted to stop the parade, so what did they set up to thwart it?","['carnival', 'public place', 'apartment', 'space shuttle', 'roadblock']",E
+What could prevent someone from buying chistmas presents?,"['happiness', 'lack of money', 'stress', 'relief', 'exhiliration']",B
+What must a crab cross to reach the ocean?,"['lakes', 'shore line', 'shallow waters', 'tidepools', 'atlantic ocean']",B
+When you need to rest it's often because you have been doing what?,"['action', 'sleep', 'sleeping', 'in motion', 'using energy']",E
+What divider is often between two buildings that cars drive on?,"['fork in road', 'sidewalk', 'living room', 'street', 'binder']",D
+What do singers need to do before a show?,"['warm up', 'use microphones', 'clear throats', 'create music', 'sound beautiful']",A
+Talking to someone is pointless if they're doing what?,"['dry mouth', 'whispering', 'being heard', 'eye contact', 'not listening']",E
+"The electrode wouldn't spark, it turned out that the what hadn't been connected?","['battery', 'electronic equipment', 'electrolytic cell', 'charge', 'tube']",A
+Where is a lake likely to be warm but untouched?,"['mountains', 'new york', 'the surface', 'michigan', 'countryside']",E
+There are many dance clubs and higher rates of obesity where?,"['united states', 'ohio', 'toun', 'michigan', 'fast food restaurants']",A
+Where always has a large amount of trash that only grows?,"['dumpster', 'detroit', 'garbage dump', 'state park', 'subway']",C
+"They were surprised that he enjoy rap, but he explained that every genre has what?","['classical', 'country music', 'hip hop', 'rock', 'good music']",E
+Where are books often kept in a home?,"['cabinet', 'shelf', 'obesity', 'table', 'backpack']",B
+What is a good thing to do while eating?,"['chewing', 'drink', 'watching tv', 'watching television', 'talking']",B
+"The child asked what a mammoth was, so his grandpa got a volume of the what out to show the child?","['ancient times', 'excavations', 'south dakota', 'encyclopedia', 'backyard']",D
+"Hoping for a beautiful day, what did the clouds do that disappointed everyone?","['homely', 'overcast', 'hideous', 'overrated', 'misshapen']",B
+"While walking the student needed to store his writing insturment away, where did he put it?","['desk drawer', 'cabinet', 'purse', 'classroom', 'pocket']",E
+"The munitions were loaded onto the launch platform, where were they?","['at cape canaveral', 'trapeze', 'battleship', 'nasa', 'kitchen']",C
+What would you put furniture on top of?,"['roof', 'room', 'floor', 'apartment', ""neighbor's house""]",C
+What could you get an unsmooth pit from?,"['backyard', 'rock', 'mine', 'cherry', 'peach']",E
+Where are trees likely to be very thick?,"['orchard', 'forest', 'state park', 'countryside', 'jungle']",B
+Where might a child go who has no home?,"['school', 'orphanage', 'most homes', 'recreational', 'pen']",B
+Where would a cat be digging for a mouse?,"['compost pile', 'floor', 'hostel', 'milky way galaxy', 'back alley']",A
+If you put a newspaper on the floor and walk on it what is it taking the place of?,"['front door', 'jail', 'rug', 'porch', 'towel']",C
+What do criminals do when they are caught?,"['they feel happy', 'realise error of ways', 'take money', 'serving time', 'arm themselves']",D
+"The door to door salesman asked for the homeowner, but the man didn't what?","['cut grass', 'own home', 'telephone call', 'answer telephone call', 'receive mail']",B
+What is the result of applying for  job?,"['anxiety and fear', 'increased workload', 'praise', 'less sleep', 'being employed']",E
+What is the best way to release energy?,"['yell', 'think', 'exercise', 'rest', 'work off']",C
+How do most people communicate?,"['dance together', 'speak words', 'fight', 'own cars', 'believe in god']",B
+What are you about to do If you're going to study in a library?,"['concentrating', 'concentration', 'settle down', 'read books', 'concentrate']",D
+"The child wanted his cereal bowl and knew he could reach it, where would he find it?","['breakfast food', 'china shop', 'kitchen cabinet', 'refrigerator', 'cupboard']",C
+"She was not lying intentionally, but she had a powerful what?","['duplicitous', 'dishonesty', 'poker face', 'imagination', 'deceitful']",D
+Where could you find a blowfish in a zoo?,"['jungle', 'sea water', 'cuba', 'atlantic ocean', 'lake']",C
+John is careful about to eating dinner that is healthy because he wants to experience what?,"['indigestion', 'living longer', 'eating', 'acid reflux', 'stomach ache']",B
+Where is a flute likely to be in a pit?,"['party', 'orchestra', 'musical instrument store', 'marching band', 'symphony']",B
+"To avoid tripping while moving through your home, where should you have a light source?","['street', 'sky', 'flashlight', 'books', 'hallway']",E
+"If you were to take Communion on a Sunday morning, what you expect the glass on the walls to be?","['many different colors', 'hold water', 'break easily', 'dirty', 'shattering']",A
+What type of group is a bugle used in?,"['brass band', 'music store', 'home', 'army corps', 'american army']",A
+"If someone decided to go somewhere an hour away, they would be doing what in an hour?","['meet', 'arriving', 'have fun', 'walk away', 'travel']",B
+Where does a heifer end?,"['barnyard', 'slaughter house', 'farm house', 'stockyard', 'butcher shop']",B
+"When a person has lost all hope, what do they tend to do?","['buy a car', 'expect miracles', 'pay bills', 'think of life', 'form friendships']",B
+Where is homemade food often stored?,"['supermarket', 'jar', 'backpack', 'wal-mart', 'container']",B
+"The team was able to communicate effectively, they knew what each other would what?","['send email', 'talk with people', 'ring up the president of bermuda', 'think', 'speak to']",D
+What could have a hot handle?,"['carrying things', 'coffee cup', 'iron', 'frying pan', 'briefcase']",D
+What is a heat source that can be obtained for free?,"['bedroom', 'fire', 'car', 'solar energy', 'gasoline']",D
+"If a phoneless person needs to make a call from a public phone, where might they find one?","['office', 'desktop', ""neighbor's house"", 'movie theater', 'rest area']",E
+"The scientist sought endangered toucans in the forest, where was he looking?","['temperate zone', 'south america', 'countryside', 'africa', 'earth']",B
+What does a person who is lazy want?,"['healthy children', 'own house', 'college degree', 'easy life', 'treated with respect']",D
+If you need to store old clothes and want to keep moths away you can put them in what large rectangular storage container?,"['trunk', 'basement', 'trash', 'trash', 'box']",A
+"Unlike a spider and his many sight seers, people only have what?","['tongues', 'names', 'brains', 'feelings', 'two eyes']",E
+"The paper towels are usually in plain sight in the kitchen, where did the dad go next to find them?","['pantry', 'cabinet', 'grocery store', 'waste bin', 'market']",A
+Where are there likely to be high tech computers?,"['space shuttle', 'library', 'post office', 'internet cafe', 'mit']",A
+Where will glue stay usable?,"['closed container', 'art room', 'sticky', 'desk drawer', 'cabinet']",A
+"The rats were hiding in the house, where were they?","['sewers', 'laboratory', 'basement', 'clinic', 'cellar']",E
+What is a reason for hiking?,"['adventure', 'walking', 'becoming tired', 'fatigue', 'exercise']",E
+"Everybody has some sort of creativity, it's the best way to what?","['create art', 'write', 'sew', 'create idea', 'express yourself']",E
+Where do you hear music when moving between floors?,"['elevator', 'speakers', 'opera', 'cassettes', 'theatre']",A
+Where is a statute found on a platform?,"['below', 'arena', 'concert hall', 'museum', 'building']",D
+The drum is a key part of which kind of musical organization?,"['vessel', 'rock band', 'marching band', 'music store', 'symphony orchestra']",B
+If you have a cat what will it do after your setting a cup on a table?,"['tinkling sound', 'doesn', 'explore', 'spillage', 'knocking over']",E
+What would people do if they want to have fun?,"['commit crimes', 'part company', 'hungry', 'go swimming', 'believe in god']",D
+"He was scared of skiing after the accident, what did he want to avoid in general?","['broken spirit', 'healthy body', 'broken bones', 'cold nose', 'broken legs']",C
+James is driving to work.  He's late and he's going very quickly.  What is he at risk of getting?,"['boredom', 'use gas', 'get to work', 'diabetes', 'speeding ticket']",E
+"Someone left their shopping bag behind when they grabbed a bit to eat, where is the bag likely?","['atlantis', 'retail store', 'closet', 'grocery store', 'restaurant']",E
+"While John Candy and Dan Aykroyd didn't run into a gazelle, you'd have to go where to see one?","['eastern hemisphere', 'the city', 'open plain', 'television program', 'great outdoors']",E
+What kind of building would you expect to find a skylight?,"['roof', 'house', 'windowless room', 'company', 'office building']",B
+Where would a person have a small bookshelf?,"['bedroom', 'bathroom', 'book store', 'library', 'furniture store']",A
+"Jill walks to the second floor and sits in her cubicle, where is she?","['office building', 'house', 'hotel', 'school', 'a chair']",A
+"John was playing football when he suffered a concussion.  He was really worried about the possible consequences of his sport, but the concussion was less scary than what?","['head injuries', 'having fun', 'being sick', 'death', 'getting hurt']",D
+"The wind tore off the shingles, what was the wind like?","['dry hair', 'spreading', 'blowing hard', 'change direction', 'wave wheat']",C
+What is the main ingredient in any soup?,"['soup', 'ocean', 'puddle', 'chicken', 'glass']",A
+"If your evening meal isn't served on a dish, at what kind of eatery are you eating?","['plate', 'dinner', 'food market', 'near perfection', 'fast food restaurant']",E
+Billy's mother tripped over a stuffed animal.  She yelled at him not to leave his things where?,"['toy store', 'hall', 'bathroom', 'amusement park', 'fairgrounds']",B
+What entity would have a fire extinguisher in their boardroom?,"['boat', 'apartment', 'public building', 'most businesses', 'chemistry lab']",D
+"She was worried about driving car, she was worried what might flare up during a long drive?","['michigan', 'car crash', 'automobile accidents', 'backache', 'getting tired']",D
+James bought a new set of tire chains and put them somewhere he could find them.  Where would he put them?,"['gear shift', 'garage', 'kitchen', 'jewelry store', 'hardware store']",B
+James sat in a chair and listened to the speaker.  Where might James be?,"['synagogue', 'grocery store', 'auditorium', 'confession', 'office']",C
+"Billy cared about his opponent, in spite of their disagreements.  Because of that, when he lost the primary, Billy began to do what for him?","['proponent', 'supporter', 'falling down', 'advocate', 'dig up skeletons']",D
+"After hours of eating, what did he satisfyingly have?","['stomach aches', 'full belly', 'getting full', 'full stomach', 'satisfaction']",D
+Someone who had a very bad flight might be given a trip in this to make up for it?,"['first class', 'propitious', 'reputable', 'one', 'sufficient']",A
+Where would you go if you want to get many types of goods?,"['shop', 'supermarket', 'shop', 'mall', 'grocery store']",B
+Inside what structure do you normally take a bath?,"['room that is upstairs', 'own home', 'hotel room', 'house', 'found in house']",D
+Birds sometimes do what to each other to establish dominance?,"['sky', 'mate', 'hatch', 'forest', 'peck']",E
+James imagined what he wanted and his mind did what?,"['form images', 'tended', 'hatred', 'play tricks on', 'form thought']",A
+Where can meat last a long time?,"['backery', 'ham sandwich', 'fridge', 'butcher shop', 'freezer']",E
+What cuisine is joked about eating small dogs?,"['backpack', 'dog show', 'chinese food', 'french', 'good hands']",C
+Seafood restaurants are used to draw tourists where?,"['maine', 'shoe shop', 'city', 'boston', 'coastal cities']",E
+"What should a person feel when doing responsible action with their pet, such as walking a dog?","['sore feet', 'happy', 'tiredness', 'pride', 'excerise']",D
+"When getting in shape, this is something that does wonders?","['eat more', 'starve', 'give up', 'period of recovery', 'jogging']",E
+Each generation thinks the next's what just sounds like noise?,"['music', 'ball stopped', 'quietness', 'alerting', 'silence']",A
+Why does someone engage in chatting with friends when they want to workout?,"['fun', 'agreement', 'cell phone', 'answers', 'inspiration']",E
+What would an adult woman do to get ready for work?,"['drink beer', 'put on make up', 'dress himself', 'work', 'dress herself']",E
+"All the adults were sitting quietly in the other room watching TV, they were hoping the baby would what?","['meditate', 'fall asleep', 'join them', 'reading', 'think']",B
+What building has a ot of glue bottles?,"['art room', 'police station', 'classroom', 'desk drawer', 'school']",E
+Where is the best place to make food?,"['kitchen', 'supermarket', 'table', 'stomach', 'restaurant']",A
+Where would a ferret feel most free?,"['classroom', 'north carolina', 'north america', 'great britain', 'outdoors']",E
+What do two people know to be talking to each other effectively?,"[""opening one's mouth"", 'listening', 'translator', 'voice', 'language']",E
+Where does a potato become softer?,"['optical device', 'garden patch', 'blender', 'pantry', 'vegetable stew']",E
+What do you do to someone easily when you love them?,"['kiss', 'ask questions', 'please parents', 'procreate', 'forgive']",E
+Bailey couldn't find a place to leave his vehicle because he couldn't find a parking lot anywhere.  It was a very small what?,"['business district', 'city', 'town', 'car', 'vehicle']",C
+A person walked into a church that was located near a store.  Where might the church be?,"['hidden', 'synagogue', 'street corner', 'fairy tale', 'hospital']",C
+"What city in a North American Country, that isn't the United States, would you expect to find a good french restaurant?","['wine', 'nyc', 'quebec', 'manhattan', 'paris']",C
+A cat is a carnivore which means they don't do what?,"['get wet', 'wool sweater', 'eat vegetables', 'hunt prey', 'sharp claws']",C
+"Studying for taking final exams can be nerve wracking, especially if you're afraid of what?","['success', 'graduation', 'failure', 'anxiety', 'studying']",C
+"You might grab what to smash a large, frightening bug when you're outdoors?","['tree', 'garden', 'meadow', 'rock', 'rug']",D
+What may you experience after listening to a boring talk for a long time?,"['fatigue', 'hear things', 'headache', 'anxiety', 'learning']",A
+A significant even in someone's life is something that is not what?,"['ignorable', 'insignificant', 'saint', 'negligible', 'slight']",A
+Why would people be getting in line?,"['follow others', 'wait turn', 'late', 'have to wait for', 'longer lines']",D
+"The farmer needed to go to the dental office, where did he have to go after turning out of his field?","['michigan', 'pub', 'town', 'hospital', 'street']",C
+Where could you find a real knight?,"['chess board', 'middle ages', 'video game', 'chess set', 'fairy tale']",B
+"During the winter hunt he could hear every motion in the woods, this was because of the what of everything?","['being still', 'silence', 'stationary', 'stillness', 'standing still']",D
+Success is usually a product of preparation and what?,"['awards ceremony', 'various situations', 'vocation', 'working hard', 'promotion']",D
+What state would have many Mexican restaurants?,"['mexico', 'mexica', 'texas', 'southern california', 'san diego']",D
+"The king strolled through his back courtyard, where was near?","['palace', 'garden', 'country estate', 'large house', 'suburbs']",A
+Where would you put condiments to stop them from combining with other condiments?,"['cup', 'refrigerator', 'table', 'pantry', 'container']",E
+John lives in a farmhouse.  There are many farmhouses close together.  You might describe this place as what?,"['farming community', 'city', 'rural area', 'framer', 'michigan']",A
+"James had difficult beginning work, but once it did he didn't stop.  He worked best when he had what?","['panic', 'stress', 'anxiety', 'accomplishing', 'momentum']",E
+What is a possible injury from jumping rope?,"['look silly', 'sweating', 'ankle sprain', 'high cholesterol', 'becoming tired']",C
+Where do security guards usually drive around in golf carts and protect young adults?,"['concert', 'home', 'airport', 'college', 'university']",E
+Where might a traveler keep their comb?,"['shoe', 'pocket', 'suitcase', 'barber shop', 'medicine cabinet']",C
+What would happen too you if you are playing game?,"['fall down', 'stress', 'competition', 'having fun', 'entertain']",D
+Where can you go to use a piano in your neighborhood if you don't have one?,"['music school', 'music store', ""neighbor's house"", 'lunch', 'drawing room']",C
+"If the weather means you what, so do your animals?","['travel', 'get cold', 'feel pain', 'move', 'electrical circuit']",B
+"If I wanted to buy a cable, where would I go?","['substation', 'electrical device', 'television', 'radio shack', 'side ports of tv']",D
+What do people do for food?,"['talk to each other', 'complete job', 'wear hats', 'kill animals', 'believe in god']",D
+What is a synonym for faith?,"['trust', 'move mountains', 'uplift', 'belief', 'experience']",D
+If you're using scuba gear in the ocean where are you?,"['beach', 'surface of earth', 'future', 'waterfalls', 'underwater']",E
+Sarah filled the thing with peanuts.  What did she fill with peanuts?,"['ballpark', 'box', 'container', 'carnival', 'jar']",E
+This is an unavoidable physiological consequence of running.  What is it?,"['breathlessness', 'increased heart rate', 'falling down', 'muscle bulk', 'calluses']",B
+Where might a teacher share her books?,"['cabinet', 'classroom', 'shelf', 'bookbag', 'desktop']",B
+If you see cars with a light blinking on the driver's side what does that indicate they will do?,"['slow down', 'go forward', 'get to town', 'turn left', 'turn right']",D
+"Despite the name a pawn can be quite versatile, all the parts are important in a what?","['chess game', 'scheme', 'chess set', 'checkers', 'north carolina']",A
+"If an actor is said to be on the ""small screen"" where would you see them perform?","['opera', 'cell phone', 'movies', 'play', 'television']",E
+"The crab realized that it was in danger at the Tokyo fish market, where did it run away to?","['cold water', 'aquarium', 'tidepools', 'pacific ocean', 'boiling water']",D
+Where is knight always portrayed as a hero?,"['middle ages', 'chess board', 'kids story', 'fairy tale', 'castle']",D
+You can find a monkey in what West African region on the Gulf of Guinea,"['south american country', 'rain forest', 'pay debts', 'works', 'nigeria']",E
+If friends comment on the condition of your living space what should you do?,"['socialize', 'go somewhere', 'go to the store', 'clean room', 'going out at night']",D
+What do people do in the cold?,"['complete job', 'wear hats', 'wear shorts', 'believe in god', 'kill animals']",B
+Where is an athlete likely to be showcased by local fans?,"['sporting event', 'museum', 'stadium', 'locker room', 'olympics']",A
+Where would a bell end a scheduled class?,"['church', 'boat', 'school', 'educational institution', 'front door']",C
+What do dogs like to eat?,"['bones', 'mice', 'bad breath', 'four legs', 'fleas']",A
+Why does someone make sure they are eating breakfast?,"['fullness', 'have energy', 'better day', 'full stomach', 'indulge']",B
+Where would there be a connection to go to another place?,"['wires', 'electrical circuit', 'computer network', 'wall', 'freeway']",E
+"The student wasn't sure of the answer, what could they do to find it?","['complete test', 'learn to read', 'search on internet', 'ask questions', 'read book']",D
+"The whole area was larger than just the baseball stadium, it was an entire what?","['peanut', 'major city', 'large city', 'urban areas', 'sports complex']",E
+"When someone is deeply involved while they watch a film, the film must be very?","['ike director', 'have fun', 'see what happens', 'interesting', 'pass time']",D
+"Sean was lying about the body, but he was very scared.  He constantly worried about what?","['the reward money', 'hurt feelings', 'being found out', 'problems', 'trouble']",C
+What language type is someone from Iran likely to use?,"['books', 'dard', 'sky', 'closed room', 'television']",B
+"A wild animal got in and destroyed the carpeting, who is likely at fault?","['cub', 'istanbul', 'home or office', 'man', 'bedroom']",A
+Where would you find gazelle under a G?,"['open field', 'ivory coast', 'dictionary', 'steppe', 'encyclopedia']",E
+"If you are hungry and going fishing, why would you be going fishing?","['to see the fish', 'have fun', 'catching fish', 'wet clothes', 'killing']",C
+What could happen to a cat other than wanting food?,"['feline', 'thirsty', 'sharp claws', 'pussycat', 'hungry']",B
+Other than school or from text where can one gain knowledge?,"['book', 'class', 'thinking', 'head', 'meeting']",E
+"Wanting to listen to the radio, what did the man do to it?","['play music', 'turn on', 'train', 'blaring', 'radiotracking']",B
+"Their food was the same every where you went, the fast food restaurant was standard from Los Angeles to where?","['big cities', 'america', 'new york', 'los angeles', 'center of town']",C
+Subway stations are generally found in a?,"['large city', 'london', 'big city', 'toronto', 'chicago']",C
+The earth is one planet in what?,"['tree', 'orbit', 'solar system', 'fotograph', 'dreams']",C
+"Lilly wanted to see every type of flower that there is.  But this is a tall order, because flowers grow all over what?","['surface of earth', 'netherlands', 'countryside', 'state park', 'anthology']",A
+Where must you go for a blood transfusion?,"['gurney', 'person', 'hospital', 'artery', 'vein']",C
+"Randy was suffering from great hunger and he didn't even need cheese or toppings, he just wanted to what?","['eat hamburger', 'prepare meal', 'eat breakfast', 'cook dinner', 'buy food']",A
+Sarah put her food in a trash can beside her desk.  Where might she have been?,"['bus stop', 'corner', 'office', 'park', 'motel']",C
+"The universe is quite vast, most say it is even what?","['mysterious', 'very old', 'full of mysteries', 'infinite', 'real']",D
+"A man wanted to catch his favorite show, what is he most likely to do?","['clap', 'feel happy', 'relax', 'record', 'watch television']",E
+Where is a person likely to dance to disco in a Bavarian town?,"['germany', 'town', 'rio de janeiro', 'dance dance dance', 'hotel']",A
+What is the opposite of remembering?,"['answering question', 'stopping to think', 'knowing', 'closing eyes', 'forgetting']",E
+"Dan didn't like what he was seeing, so he turned the control know and flipped it to Andy.  What is the knob on?","['doorway', 'control panel', 'television', 'drawer', 'opening doors']",C
+"If a person spends all day at their job, what are they likely doing?","['gain weight', 'walk away', 'work hard', 'turn around', 'getting a burnout']",C
+"They were planning a surprise party, a car pulled up and they started to do what the guest of honor?","['send flowers', 'sneaky', 'singing', 'hide from', 'hiding']",D
+What did Van Gogh feel when he found his long lost painting?,"['new look', 'physical work', 'new color', 'great relief', 'slashes']",D
+"He wanted to but couldn't concentrate on playing game with friends, he wished he could just be doing what with it?","['gaming', 'anger', 'stress', 'injury', 'enjoying']",E
+When you dont have a car you take the bus to?,"['get somewhere', 'go home', 'commute', 'get drunk', 'avoid parking hassle']",A
+what can get a prisoner in more trouble?,"['dream of freedom', 'attempt to escape', 'do time', 'fast for days', 'scape jail']",B
+What southern area not in the US are you  likely to find a marmoset?,"['latin america', 'mountains', 'burrow', 'home', 'new hampshire']",A
+Sarah's birds died because she didn't poke holes in the jar and they needed to do what?,"['pick berries', 'sky', 'reproduce', 'roof', 'breathe']",E
+Where would you go if you wanted to buy clothes as well as other things?,"['house', 'closet', 'beach', 'clothing store', 'mall']",E
+Sam liked getting drunk.  He did it for what?,"['nausea', 'sleep', 'fights', 'vomiting', 'relaxation']",E
+In what sort of region would you expect to find a large number of apartment buildings?,"['suburbs', 'urban area', 'urban environment', 'indiana', 'housing unit']",B
+What is something children do at home that is very addictive?,"['draw', 'listen to music', 'play chess', 'play basketball', 'watch television']",E
+What do you keep in a billfold?,"['identification', 'cell phone', 'hip pocket', 'money', ""man's back pocket""]",D
+What could happen after becoming inebriated and then being sent to prison?,"['paralysis', 'regret', 'arrest', 'nudity', 'drunkenness']",B
+What is a painful condition that would make going to the opera uncomfortable?,"['fall asleep', 'haircut', 'headache', 'fresh', 'relaxation']",C
+"James is a normal person, but sometimes he's under the weather.  Normal people feel what sometimes?","['ill', 'tangential', 'reverse', 'uncommon', 'unconventional']",A
+Hurting someone else may cause what consequences for the offender?,"['success', 'sadness', 'hurt feelings', 'legal problems', 'public outcry']",D
+"The poker player was not gaining money on the night, what was he doing instead?","['loosing', 'broke', 'lost', 'loss', 'waste']",A
+What are people doing when washing hands for a long time?,"['thinking', 'sleeping', 'use soap', 'irritation', 'cleaning dirt off']",A
+Where did many municipalities have their cemetery?,"['churchyard', 'personal homes', 'most cities', 'populated area', 'field']",A
+What type of game causes players to use their head on the ball?,"['sporting event', 'head ball', 'stadium', 'soccer game', 'hockey game']",D
+John wanted to get grapes so he went where?,"['kitchen', 'fruit basket', 'bowl of fruit', 'field', 'farmers market']",A
+What does the government have control over?,"['trouble', 'country', 'army', 'city', 'control']",D
+John knows that molecules are very important.  Where might John look for them?,"['elements', 'substance', 'anything', 'air', 'hands']",C
+What can you do before taking final exams to help with them?,"['study', 'sweat', 'graduation', 'cheat', 'sleep']",A
+Where can travellers pull off the road to stretch their legs?,"['rest area', 'airport', 'train station', 'come home', 'bus depot']",A
+Where could someone give you a plate with a grape on it?,"['salad', 'restaurant', 'grocery store', 'kitchen', 'food store']",B
+"The movie had many a song and dance, it was a what?","['bollywood', 'record', 'musical', 'jukebox', 'napster']",C
+"My ficus isn't in my house, but it is protected from bugs, where did I place it?","['window', 'clay pot', 'pots', 'screened porch', 'shady places']",D
+"The servant was asked where to put the flowers, what was his status at the wedding?","['free person', 'celebrity', 'boss', 'in charge', 'rich person']",D
+What do you buy new cups for when you move in the city?,"['apartment', 'restaurant', 'table', 'zoo', 'kitchen cabinet']",A
+What burning  feeling is eating hamburger in large amunts likely to cause?,"['gas', 'being full', 'death', 'heartburn', 'food poisoning']",D
+Where would people go after they pick some food to buy in a store?,"['apartment', 'bus depot', ""neighbor's house"", 'restroom', 'end of line']",E
+"THe apiarist bought a new queen, where was the queen bound?","['england', 'beehive', 'farmyard', 'monarchy', 'deck of cards']",B
+"He couldn't take the match straight to the log and hope to get warm, he first crumpled up some what?","['light fire', 'start fire', 'competition', 'branches', 'burn paper']",E
+The trim made a good line between the floor and the what?,"['obesity', 'desk', 'sky', 'wall', 'ceiling']",D
+What do we call television that we enjoy watching a lot?,"['legal', 'entertaining', 'complex expensive and inflexible', 'obsolete', 'awesome']",B
+"The human looked down longingly as he sat in the orbiting space station, what did he miss?","['nearest house', 'workplace', 'surface of earth', 'office block', 'his feet']",C
+Bill's horse escaped it's paddock and ran away to some place it could be free. Where might it have gone?,"['canada', 'circus', 'movies', 'countryside', 'parade']",D
+"The bus stop was downtown, who likely is responsible for operating it?","['city', 'urban area', 'towns', 'bus operator', 'airport']",A
+John put something on the night table.  But he forgot about it in the morning because it was unfamiliar. Where was he?,"['in jail', 'homes', 'hotel', 'furniture store', 'hallway']",C
+"Boredom led him to go out to the bar, there were many characters there and he what?","['meet interesting people', 'play games', 'field', 'skateboard', 'listen to music']",A
+Lying can cause what when trying to find accurate information?,"['distrust', 'hurt feelings', 'confusion', 'good things', 'unhappiness']",C
+"The row houses featured nearby red phone booths, where were they located?","['england', 'living less expensively', 'city', 'town', 'inside car']",A
+"Jane was going to the party.  She didn't care about making friends or gorging on alcohol, she just wanted to do what?","['plan', 'meet new people', 'work', 'have fun', 'getting drunk']",D
+Where can you see a mammoth in NYC?,"['refrigerator', 'museum exhibit', 'prehistoric times', 'museum of natural history', 'forest']",D
+What might happen if someone is not losing weight?,"['loose skin', 'beauty', 'miss universe', 'death', 'healthier']",D
+"If I have a pet bird, what does it likely live in?","['forest', 'bathroom', 'windowsill', 'countryside', 'cage']",E
+A product that has been out of stock but is now restocked is what?,"['plenty', 'empty', 'abundant', 'plentiful', 'available']",E
+When you are finished drinking out of a cup and want it clean you use this.,"['shelf', 'dishwasher', 'table', 'restaurant', 'paper towel']",B
+"The tourist entered Mammoth cave, what state were they in?","['west virginia', 'kentucky', 'rocky hills', 'scotland', 'canyon']",B
+What do we call a garden that is found in public?,"['fence', 'back yard', 'ground', 'pretty', 'park']",E
+"John couldn't find a place to stay, and he didn't want to waste money.  He picked a place that was inexpensive and offered few luxuries.  Where might he be staying?","['farm', 'town', 'city', 'hotel', 'motel']",E
+Which state still has wild bald eagles?,"['canada', 'cliff', 'mountains', 'captivity', 'utah']",E
+Despite numerous bad public reviews the expert found the product to be what?,"['sincere', 'adequate', 'first rate', 'passable', 'sufficient']",C
+Where could you find 10 or 100 home that are not attached together?,"['denver', 'neighborhood', 'city or town', 'michigan', 'apartment building']",B
+"Family is always the best for devotion, but it is also nice if a person has what?","['good review', 'headache', 'with cat', 'loyal friends', 'shoes']",D
+"Using television to broadcast the same shows to everyone, you can potentially increase what?","['innovation', 'visual', 'falling asleep', 'entertained', 'conformity']",E
+"A steak house was looking for a quaint place to operate, where did they open?","['new york', 'town', 'library', 'mexico', 'united states']",B
+"The teacher took the children out of the playroom to change diapers, where did the teacher work?","['big house', 'nursery school', ""grandma's house"", 'creche', 'preschool']",B
+"I want some original paintings to put on my wall, where should I go for instpiration?","['art show', 'classroom', 'labyrinth', 'corner', 'paint store']",A
+How do most people feel about a person they love?,"['popularity', 'know all', 'own house', 'care about', 'flu']",D
+Where would a policeman be most likely to stop a car?,"['the park', 'police station', 'front door', 'roadblock', 'street']",D
+"A showroom feature washers and refrigerators, where is this showroom located?","['appliance store', 'vegas', 'electronics store', 'car dealership', 'kitchen']",A
+Where do you send mail over a counter?,"['post office', 'candy store', 'butcher shop', 'animals', 'kitchen']",A
+What do people do when they are in a fight?,"['facing each other', 'get angry', 'kiss', 'gather together', 'learn from each other']",B
+"The crab was when it saw something in the kitchen, what did it see?","['boiling water', 'pacific ocean', 'cold water', 'a huge knife', 'fish market']",A
+Where would an automobile drive in order to get somewhere quicker?,"['side of road', 'parking garage', 'street', 'garage', 'fast lane']",E
+"If you see policemen outside wearing safety vest and holding flashlights, what are they doing?","['corner thief', 'help', 'searching in dark', 'direct traffic', 'hurry along']",D
+What dirty method of getting from one place to another in large cities may not allow you to see daylight?,"['ground', 'subway', 'over bridge', 'street', 'race track']",B
+"The students helped build the backdrop, it was just one of the parts of putting on their little what?","['theater', 'theatre', 'stage show', 'photography studio', 'mini project']",C
+Sarah knew that bob was a gentleman because he took her to a show and was stylish in his what?,"['tuxedo', 'big house', 'church', 'town', 'movie']",A
+"In war, your primary method is combat, but your goal is to do what?","['conquer opponent', 'fight enemy', 'join army', 'kill', 'terrible']",A
+What is someone likely to experience when having fun?,"['enjoyment', 'euphoria', 'excitement', 'crying', 'laughter']",A
+When children aren't playing outside what do they like to do?,"['rush around', 'play video games', 'teach parents', 'reach over', 'eat']",B
+"Where could you see a landmark surrounded by many miles of plants, other than in a park?","['national park', 'countryside', 'desert', 'map', 'city']",B
+"The aisle that John was on had macaroni, rice, and hamburger helper. What sort of store is John most likely shopping at?","['grocery store', 'church', 'drugstore', 'hardware store', 'department store']",A
+"The lady was eating less sweets and snacks, this did what to her weight?","['defecating', 'reduced', 'will be fatty', 'becoming full', 'gaining weight']",B
+If you tape a television show to watch it again then you what when you watched it the first time?,"['see again', 'watch again', 'reconsider', 'enjoyed', 'found interesting']",D
+Where off the eastern U.S. would you find an anemone?,"['flower bed', 'tide pool', 'florida keys', 'coral sea', 'aquarium']",C
+"If a small flying animal picks up a string, where are they taking it?","[""bird's nest"", 'park', 'guitar', 'kite', 'quark']",A
+"James spent his days at his cottage trying to capture the beauty of the landscape, but he wasn't good at it. He was never good at it.  What isn't he good at?","['mountains', 'dense areas', 'village', 'countryside', 'painting']",E
+What effect did the sun have on the residents inside?,"['dry clothes', 'warm room', 'a tan', 'warm house', 'dry ground']",D
+Why would a person go to school?,"['party', 'own house', 'more leisure time', 'successful in life', 'not feel pain']",D
+What happens when someone is resting when they are tired?,"['time passes', 'fall asleep', 'going to sleep', 'lying down', 'snore']",B
+"The show was live,  and there was no tape delay.  The station decided that they weren't going to have any censorship, and would remain what regarding the issues?","['neutral', 'animated', 'broadcast', 'biased', 'recorded']",A
+Where could you find a quite old clavichord?,"['parlor', 'music hall', 'make music', 'museum', 'music room']",D
+Where in your office would you store a highlight that you don't use often?,"['office supply store', 'case', 'desk drawer', 'campus book store', 'lamp']",C
+What does a person from Avalon live in?,"['pain', 'meaningful work', 'english house', 'cotton candy', 'headache']",C
+Where do adults use glue sticks?,"['classroom', 'desk drawer', 'at school', 'office', 'kitchen drawer']",D
+Jim chose clear paint.  He could have chosen another type but it would have covered up the natural beauty of the wood.  What sort of paint could he have chosen instead?,"['opaque', 'opal', 'obscured', 'obscure', 'thick']",A
+"James's bouncing rubber balls were at rest, and so he could sleep.  He would get up in the morning, and then put them in what state again?","['upside down', 'in motion', 'active', 'wakefulness', 'resthold']",B
+What do most people have on their feet?,"['shoes and socks', 'floor', 'table', 'surface', 'desk']",A
+"The frozen food is starting to melt, where would I put it?","['supermarket', 'refrigerator', 'fridge', 'grocery store', 'heater']",C
+What would a person do if they do not have any friends?,"['talk to people', 'try again', 'fall asleep', 'stand alone', 'thank god']",D
+John put the book in his pack and then went off to work.  Where might he be working?,"['public library', 'backpack', 'briefcase', 'suitcase', 'synagogue']",E
+Where could you see a single bee?,"['soft drink', 'swarm', 'countryside', 'apiary', 'united states']",C
+Where were there recently a lot of closing sales?,"['grocery store', 'furniture store', 'department store', 'k mart', 'clothing store']",D
+John didn't have to ride his bike.  He did it for only one reason. What reason is that?,"['thirst', 'enjoyment', 'for fun', 'pleasure', 'fatigue']",B
+"In a war, the killing ends when every person does what?","['going to jail', 'punishment', 'recognizes their true oppressors', 'death of', 'dies']",E
+"The forgotten leftovers had gotten quite old, he found it covered in mold in the back of his what?","['carpet', 'refrigerator', 'breadbox', 'fridge', 'coach']",B
+"The table was designed for gambling, where should it be placed?","['card room', 'trash', 'livingroom', ""neighbor's house"", 'kitchen']",A
+James needed to reset after a long day at work.   He turned on the television and found a good show.  What might that help him do?,"['relax', 'go to sleep', 'lay down', 'go to bed', 'sleep easily']",A
+When a newborn's eyes open for the first time it will be the first time the ever?,"['tear up', 'see light', 'fill with tears', 'be happy', 'glass over']",B
+Where is glue well used?,"['desk drawer', 'cabinet', 'art room', 'school', 'closed container']",C
+Where should an excavation never take place?,"['construction site', 'cemetary', 'building', 'city', 'archeological site']",B
+People are what when you're a stranger?,"['train', 'strange', 'human', 'stupid', 'dangerous']",B
+Discovering truth normally occurs at what part of a research process?,"['enlightenment', 'conclusion', 'beginning', 'relief', 'happiness']",B
+John pulled the cover over his head.  He was hoping that this would allow him to hide. Where is he hiding?,"['divert suspicion', 'underneath', 'opening', 'landcover', 'leave open']",B
+"The person could get a car loan at a great interest rate, why?","['smooth skin', 'fresh produce', 'understand themselves', 'good credit', 'headache']",D
+"Jeremy is mastering a music scale, where should he find books on the matter?","['post office', 'music store', 'assay office', 'butcher shop', ""doctor's office""]",B
+Science is a difficult subject.  What's a purer subject?,"['faith', 'astronomy', 'discovery', 'arts', 'math']",E
+What do you use to washing clothes?,"['clothes', 'laundry soap', 'water and soap', 'soap and water', 'time']",D
+What do many people do to a person on their birthday?,"['give gifts', 'receive letters', 'feel embarrassed', 'go to the club', 'thank god']",A
+"Mary was in motion the whole time.  From per perspective, it looked like everyone else was what?","['stopped', 'stillness', 'standing still', 'static', 'being still']",C
+Where can a human go on Sunday?,"['jail', 'love', 'restaurant', 'church', 'homes']",D
+"There was a sign telling picnickers not to feed squirrels, where was this sign likely placed?","['park', 'forest', 'tree', 'roof', 'yard']",A
+"If I wanted to analyze some material, where should I go?","['city hall', 'anything', 'fabric store', 'physical world', 'science lab']",E
+"John was an important person, but when wronged he could be what?","['trivial', 'petty', 'slight', 'negligible', 'impoite']",B
+"If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause?","['irritability', 'depression', 'getting out of bed', 'happiness', 'discomfort']",B
+"Joe didn't remember to tell Marsha something important before she left home, so he spent an hour desperately doing what?","['problems', 'writing down', 'being prepared', 'phoning', 'panicking']",D
+What is a method expressing yourself while making an object of lasting beauty?,"['understood', 'being slapped', 'people will understand', 'pain', 'creation of art']",E
+"The measurement was important and they had to make a, what kind of increase, to get it just right?","['mighty', 'slight', 'negligible', 'useless', 'petty']",B
+"The homeowner wanted new flooring installed, where did they want it specifically?","['home depot', 'bundle', 'house', 'mansion', 'loft']",C
+"When they got out of the car in the mountains he felt like he was breathing fresh air for the first time, he began to do what to enjoy it more?","['living', 'feeling good', 'hyperventilate', 'look around', 'breathe deeply']",E
+"The person burped loudly with satisfaction, he had been what?","['own house', 'rude', 'well fed', 'fairness', 'candies']",C
+"John couldn't find an affordable place to stay so he decided to splurge.  He picked a place that was fancy and upscale, expensive.  Where might he be staying?","['city', 'mexico', 'motel', 'restaraunt', 'hotel']",E
+"Mary offered to let James sleep on her hide sofa bed, but he thought it was uncomfortable.  Where might he have decided to stay?","['hotel', 'apartment', 'couch', 'guest room', 'house']",A
+What might someone not wanting a hamburger want?,"['sandwiches', 'resturant', 'pizza', 'fast food restaurant', 'mouth']",C
+Where is conversation likely to get loud?,"['party', 'it is bordered by the atlantic ocean to the east', 'dinner', ""friend's house"", 'internet cafe']",A
+If you have a small dog you can have it ride in what instead of walking?,"['barbeque', 'baby carriage', 'carseat', ""grandma's house"", 'basket']",B
+Why are guns not allowed in some areas?,"['bad', 'gun free zone', 'very dangerous', 'deadly in wrong hands', 'semiautomatic']",C
+"Animals can be very primal, sometimes to prove themselves they what?","['fight each other', 'need to eat', 'are territorial', 'feel pain', 'live lives']",A
+Where is a church found at?,"['zoo', 'populated area', 'city', 'christian community', 'every town']",E
+"He was trying to eat more green, as in simple ingredients rather than what foods?","['ripe', 'greenweed', 'yellow', 'processed', 'cloy']",D
+"The park had a refuse and littering problem, so they added another what?","['tip', 'park officer', 'incinerator', 'dump', 'wastebasket']",E
+Where might an expressway leave the Us to go?,"['large city', 'canada', 'country', 'map', 'highways']",B
+"The lion sensed his competitor was timid, so what attitude did the lion take?","['reckless', 'bellicose', 'defensive', 'aggressive', 'dauntless']",D
+"It was important precious cargo, so it was delivered as quickly as possible by means of what?","['aeroplane', 'boat', ""ship's hold"", 'airplane', 'ferry']",A
+Where is a good place for a woman to store her sunglasses?,"['drugstore', 'movie theater', 'bag', 'shirt pocket', 'purse']",E
+Glass that hasn't been treated to be extra strong is what?,"['weak', 'fragile', 'forceless', 'regular', 'flimsy']",B
+"A colorful pebble falls on a goldfish, where is the pebble?","['aquarium', 'creek', 'pet store', 'playground', 'pond']",A
+"A bride and groom are taking care of proposals, what is the likely ceremony?","['efficiency', 'getting work done', 'marriage', 'finishing up', 'results']",C
+The clicking away of a shorthand typewriter was doing what while hearing testimony?,"['anger', 'nodding', 'listening', 'take notes', 'writing down']",D
+Standing in queue at a store allows you to be able to do what to your surroundings?,"['watch', 'whistle', 'impatience', 'look around', 'daydreaming']",D
+"She couldn't hide she liked the boy she was talking to, she had a constant what?","['make eye contact', 'smile', 'another person', 'listening', 'compliment']",B
+Finding information requires what other than research materials?,"['internet', 'ask questions', 'time', 'searching for', 'logic']",C
+What is a good way to get food hot?,"['fridge', 'field', 'oven', 'table', 'cupboard']",C
+"John put  salt on his salad.  Mary suggested that he should spritz what on it, instead?","['peppers', 'black pepper', 'vinegar', 'cure meat', 'adding flavor']",C
+What makes it possible for your bones to move?,"['flesh', 'human body vertebrates', 'skin and', 'muscle', 'cartilage']",D
+What is usually too small for a cat to fit into?,"['american home', 'barn', 'paper bag', 'bed', 'own home']",C
+"Sam didn't want to join a union, but he had no choice.  He was employed at a union shop. If he didn't want to join, he's have to leave what?","['province', 'workplace', 'construction business', 'law', 'club']",B
+Where would you fill a salad bowl with as much as you can eat?,"['dishwasher', 'a resturant', 'buffet', 'french restaurant', 'cupboard']",C
+"She was famous for her needlepoint, this one was going to be round so she grabbed her round wooden what?","['livingroom', 'artscraft store', 'sewing', 'frame', 'artefact']",D
+Where are people likely to live in small areas?,"['apartment', 'opera', 'supermarket', 'train station', 'mansion']",A
+"The person turned the oven on and put a pizza in, what happened one hour later?","['smell smoke', 'catch cold', 'burnt', 'look angry', 'bank savings']",A
+What would you do with a sword you are holding if you do not need to use it?,"['salon', 'stone', 'collection', 'museum', 'sheath']",E
+Where is a good place to store water?,"['toilet', 'jar', 'bridge', 'ocean', 'boot']",B
+Where would you find a basement that can be accessed with an elevator?,"['eat cake', 'closet', 'church', 'office building', 'own house']",D
+"If a person is trying new things, what is their goal?","['cross street', 'man crew', 'cross road', 'lose weight', 'experience life']",E
+"John enjoyed his time visiting the museum.  He wanted to spend more time there, so that he could study the exhibits more.   He was a very academic person and loved doing what?","['tired feet', 'gaining knowledge', 'back pain', 'being bored', 'pondering']",B
+Where do you keep your pizza slice before you eat it?,"['table', 'plate', 'restaurant', 'oven', 'popular']",B
+What business serves alcoholic refreshment?,"['church', 'homeless shelter', 'prison', 'bar', 'park']",D
+Where does someone keep their favorite text?,"['book store', 'newspaper', 'library', 'own home', 'novel']",D
+Where would rock be found in the desert?,"['oasis', 'surface of earth', 'countryside', 'mountains', 'bridge']",B
+The craftsman used elaborate joinery and paneling for the what of the saloon?,"['swing door', 'entrance', 'wall', 'sliding door', 'exterior door']",A
+Where would a ficus plant brighten up a room?,"['middle east', 'palace', 'dictionary', 'pots', 'apartment']",E
+What is necessary for learning by yourself?,"['exposure', 'patience', 'study', 'cooperation', 'thought']",C
+What can I find that is about 4.5% alcohol?,"['beer', 'wine', 'pub', 'uncle joe', 'fraternity house']",A
+Many homes in this country are built around a courtyard. Where is it?,"['candidate', 'spain', 'lawn', 'asshole', 'office complex']",B
+"Manny refused to give the court respect, and was charged with what?","['dishonor', 'contempt', 'humiliate', 'disdain', 'scorn']",B
+"When a person with mental illness receives medication and therapy, what has happened?","['cause irrational behaviour', 'recur', 'effectively treated', 'managed', 'cause suffering']",C
+What is it called when you are killing people because they are bad?,"['war', 'get arrested', 'joy', 'going to prison', 'vengeance']",E
+What is a lawyer required to do during the discovery phase of a trial?,"['charge fee for service', 'come early', 'convict', 'produce evidence', 'state case']",D
+"If a person is seeing new things, what do they most often feel?","['curiosity', 'excitement', 'boredom', 'wonder', 'fear']",A
+Where do people with the same faith meet?,"['synagogue', 'church', 'conference', 'car show', 'montana']",A
+What room of the house is the scale kept in to weigh yourself?,"['bathroom', ""doctor's office"", 'assay office', 'post office', 'study']",A
+"The couple was enjoying regularly copulating, but if you ever met them you'd think they hardly knew each other based on their what?","['babies', 'faces', 'odors', 'infidelity', 'rapport']",E
+Where is a likely place to view an old copy machine?,"['industrial area', 'museum', 'barn', 'school', 'office']",B
+If you have rotten food when eating breakfast in bed what will you be doing?,"['mess', 'joy', 'vomiting', 'contentment', 'pleasure']",C
+Where can I get a drink?,"['bar', 'china', 'a brothel', 'theater', 'space shuttle']",A
+"He always wanted a man cave, but with the sofa bed it doubled as a guest room down in the what?","['basement', 'guest room', 'treehouse', 'living room', 'horseradish']",A
+"He didn't like the walk up, but living on the top floor meant there was nobody above him in the what?","['apartment building', 'tall building', 'go down', 'garden', 'office building']",A
+What is the intended biological function when a person has sex?,"['compliments', 'reproduce', 'sweating', 'talented', 'affluent']",B
+Who is the guard here for?,"['man post', 'attack', 'intimidation', 'prisoner', 'unprotected']",D
+What is the habitat of the fox?,"['hen house', 'burrow', 'california', 'england', 'mountains']",E
+"When you are expressing yourself by yelling after getting a bruise, what are you feeling?","['self pity', 'communication', 'understood', 'pain', 'embarrassment']",D
+Which horseman of the apocalypse is often depicted next to death?,"['battlefield', 'the healer', 'funeral', 'war', 'hospital']",D
+Where does a child likely sit at a desk?,"['furniture store', 'schoolroom', 'patio', 'office building', 'library']",B
+Where in a meadow would a snake hide?,"['underwater', 'tropical forest', 'amazon river', 'western texas', 'high grass']",E
+John needed to escape.  He hadn't expected that because he was a  solid runt.  What is he scared off?,"['be imprisoned', 'being trapped', 'captured', 'stay in', 'being caught']",A
+Sarah's forgot her purse. She couldn't be the clothes she wanted.    She would have to drive all the way back where?,"['house', 'home', 'handbag', 'restaurant', 'department store']",B
+What is a health benefit of jumping rope?,"['increased heart rate', 'get weight', 'having fun', 'sweating', 'hopping']",A
+Where are plants happiest in the spring?,"['garden', 'surface of earth', 'in the shade', 'park', 'greenhouse']",A
+What item has parts such as rods and pistons?,"['sporting goods store', 'engine', 'cool', 'eyeball', 'fishing camp']",B
+"She said it was her turn to watch television, it was time for her to what?","['entertained', 'plug in', ""you're bored"", 'see favorite show', 'sit']",D
+If you've thrown a rod you've done damage to what?,"['fishing camp', 'hardware store', 'engine', 'your spine', 'sporting goods store']",C
+Billy wanted to have rest because he needed to do what?,"['go to bed', 'eat fish', 'relax', 'get tired', 'lie down']",C
+"The lizard looked longingly out of its cage, what was the lizards status?","['captivity', 'costa rica', 'river', 'encyclopedia', 'garden']",A
+What is one of the many hazards of traveling?,"['queasiness', 'diarrhea', 'exhilarating', 'motion sickness', 'going somewhere']",B
+"After getting drunk and crashing his car, what resulted for him?","['police award', 'erections', 'violence', 'injury', 'illness']",D
+"Sam didn't want to do it because he felt that it was nonessential.  But Joe insisted, because he believed that it was what?","['mandatory', 'essential', 'necessary', 'needed', 'required']",C
+"No matter the background of the person, they should all be given what in applying for the job?","['critical thinking', 'congratulated', 'equal opportunity', 'compliments', 'raffle tickets']",C
+"The chief saw his entire tribe wiped out, he was a leader with a single what?","['peon', 'indian', 'minister', 'follower', 'employee']",D
+"The man was giving assistance to a pan handler in the streets, how did he give assistance?","['feeling good', 'killing', 'law suits', 'out of pocket', 'feel loved']",D
+He curled up and tried to fall on his shoulder so his arm or what wouldn't take the hit?,"['leg', 'garment', 'torso', 'body', 'road']",C
+"The tennis court suffered from fraternity pranks, where was it located?","['college campus', 'michigan', 'health club', 'wimbledon', 'town']",A
+"We were on the highway, driving back home and pulled off to find an eating place called what?","['dinning room', 'dining room', 'food store', 'big city', 'restaurant']",E
+What do people make with crab?,"['delicious meal', 'chinese market', 'fish market', 'aquarium', 'tidal flats']",A
+What does someone want to do when they have greed?,"['make friends', 'buy food', 'share the wealth', 'lie', 'get']",E
+What does too much lead do to a person?,"['toxic', 'very heavy', 'very dense', 'very resistant to corrosion', 'follow']",A
+Where is not likely to use a card catalog for organizing?,"['book store', 'library', 'find information resources', 'store', 'kitchen']",E
+"Instead of buying brand new pens, what part can you replace to keep using them?","['ink in', 'ink cartridges', 'take notes', 'color', 'caps']",B
+What type of homes are likely to have an attic?,"['victorian house', 'own home', 'older houses', 'boxes', 'apartment']",C
+"The cat pawed demurely at the couch and walked in front of the TV, where was the cat?","['family room', 'back yard', 'residential area', 'bathroom', 'comfortable position']",A
+Ben didn't have much respect for Sue. He would always do what about her wishes?,"['throw away', 'disregard', 'being rude', 'humiliate', 'abhor']",B
+"Billy was a forgiving person.  When Marna confessed to him, she felt what?","['redemption', 'absolution', 'great relief', 'very sad', 'make up']",C
+"Playing poker takes a lot of luck, but being consistent takes what?","['ante', 'happiness', 'skill', 'losing money', 'attention']",C
+Where do you keep computer speakers?,"['produce sounds', 'roof', 'conference', 'desktop', 'concert']",D
+Sally thought that competing wasn't worth the risk. If she pushed more what might happen?,"['pressure', 'trying harder', 'put harder', 'enemies', 'death']",E
+Where is all  plumbing found in most houses?,"['own home', 'kitchen', 'show', 'wall', 'bathroom']",D
+Where could you find 10 or 100 home that are attached together?,"['neighborhood', 'apartment building', 'michigan', 'countryside', 'city or town']",B
+"A human is hitch hiking near Hoboken, where is he?","['new jersey', 'homes', 'department store', 'near italy', 'new orleans']",A
+A student should not do what while their instructor is lecturing?,"['play piano', 'talk', 'talk on their phone', 'study engineering', 'read book']",B
+What do use coal to light?,"['fire', '(this question makes no sense)', 'underground', 'stocking', 'fluid']",A
+Humans usually get what from taking a break?,"['not working', 'feel relaxed', 'relaxation', 'distractions', 'delay']",C
+John came to see Sam and Sam kicked him out.  Sam didn't like company.  He prefered what?,"['you', 'abbreviation', 'solitude', 'loneliness', 'alone']",C
+Billy was happy that you improved yourself.  He invited you to do what?,"['eat better', 'meditate', 'have baby', 'feel better about yourself', 'celebrate']",E
+"Most humans by shoes in pairs, this is because they happen to have what?","['two ears', 'lay eggs', 'one head', 'a bad day', 'two feet']",E
+Jimmy didn't like going to the party.  It seemed like the guys there did nothing but what?,"['dance', 'getting drunk', 'meet new people', 'having fun', 'have fun']",B
+Where will any tearoom be?,"['building', 'london', 'england', 'boston ship harbor', 'restaurant']",A
+"The electronics store benefited from people walking from the food kiosks, where was it located?","['strip mall', 'buy battery', 'building', 'zoo', 'shopping mall']",E
+What western state has thousands of miles of shore?,"['picture of sea side', 'seaside town', 'beach', 'california', 'see side picture']",D
+What place of work might you find a hairpin?,"['hair salon', 'hair of woman', 'barber shop', 'pincushion', ""woman's hair""]",A
+"The diamonds were difficult for the prospectors to find, but why is that?","['more expensive than sand', 'rare', 'pretty', 'clear', 'dessert']",B
+"When an army is sent abroad to combat zones, what might they be doing?","['vacation', 'battlefield', 'war', 'military base', 'other countries']",C
+After being on his feet all day he told his boss he was taking a break and doing what on the bench?,"['not working', 'relaxation', 'renewal', 'sleep', 'sitting down']",E
+It was a ridiculous answer to a simple question.   The professor expected something loss convoluted and more what?,"['solemn', 'straightforward', 'pensive', 'somber', 'serious']",B
+"While he wanted to believe, what mindset prevented him from accepting it?","['deny', 'skepticism', 'doubt', 'disbelief', 'paranoid']",B
+"She asked her little boy why, he replied that he didn't know and it was just what?","['case', 'reason', 'how', 'because', 'answer']",D
+What do parents tell a child to do on the weekend?,"['study', 'begin school', 'go out to play', 'row boat', 'clean room']",C
+Losing weight may mean fat is going through what?,"['weight loss', 'death', 'shrinking', 'decomposition', 'hunger']",D
+What happens at soon as a living being is born?,"['expiration', 'growing older', 'sometimes bad', 'death', 'start reproduction']",B
+Where are you if you have to order a cup of coffee?,"['mexico', 'tired', 'table', 'coffee shop', 'desk']",D
+"The machine was very intricate, it was quite an what?","['box', 'apparatus', 'appliance', 'wash dishes', 'implement']",B
+What item is smelted out of minerals on the country side?,"['urban city', 'france', 'metal', 'grass', 'state']",C
+"A person wants to be like Michael Phelps, what should they do first?","['feel relieved', 'cross street', 'act responsibly', 'avoid swimming', 'learn to swim']",E
+"Even though he was committing murder in self defense at the time, he still had what about having had done it?","['killing', 'dread', 'dying', 'fear', 'regret']",E
+"It was a cold morning, so staying staying in bed brought warm what?","['resting', 'comfort', 'stubborn', 'bed sores', 'missing out']",B
+"A woodworker is missing a screw, where should he look for it?","['tool box', 'wall outlet fixture', 'on the ground', 'motorcycle', 'computer']",A
+"I have some food that I want to eat right now, where would I put it?","['cup', 'kitchen', 'pantry', 'jar', 'plate']",E
+"When people eat more food than they need on a daily basis, what tends to happen?","['become angry', 'obesity', 'gain weight', 'agree or disagree', 'pay bills']",C
+"Holding a iron and looking in the distance the idea seemed simple enough to him, he just had to get the ball in the what?","['basketball hoop', 'sporting event', 'sporting goods store', 'hole', 'pool table']",D
+What is a child likely to do while going to play?,"['laugh', 'sit', 'happiness', 'being entertained', 'walk slowly']",A
+"If diamonds are not free nor cheap, what are they?","['enslaved', 'free with coupon', 'expensive', 'paid for', 'imprisoned']",C
+Where would you put sunglasses if you do not have a shirt but want to bring the sunglasses with you?,"['in shoes', 'bag', 'shirt pocket', 'drugstore', 'glove compartment of car']",B
+After being stuck indoors all day breathing fresh air would lead to what?,"['feeling better', 'oxygen intake', 'think more clearly', 'happiness', 'feeling refreshed']",E
+Where would excitement not be allowed?,"['hockey game', 'boxing match', 'library', 'car show', 'dance']",C
+Where would you put a plate after washing it?,"['flea market', 'kitchen cupboard', 'dishwasher', 'restaurant', 'outside']",B
+The medieval costumed man pranced around playing music moving his hands wildly on the fingerboard of his what?,"['lute', 'guitar', 'banjo', 'mandolin', 'violin']",A
+What would a team be doing when a winning baseball game is imminent?,"['pride', 'recognition', 'celebrating', 'joy', 'going home']",C
+"When you want to get the skin off of an apple, you do what to it?","['seeds inside', 'stems', 'peel', 'grocery store', 'green market']",C
+What covers the bones in a human body?,"['matter', 'muscle', 'flesh', 'skin and', 'cartilage']",C
+What might a fish avoid for safety?,"['stream', 'end of line', 'market', 'pond', 'boat']",E
+Where would you get a bag after someone fills it with clothes?,"['shopping cart', 'cashier', 'shopping mall', 'supermarket', 'bookstore']",C
+Where are people usually most comfortable?,"['spend time', 'taking bath', 'own land', 'own home', 'talk to each other']",D
+How is a soldier likely to travel?,"['carriage', 'armored car', 'trenches', 'tent', 'battlefield']",B
+"When you're expressing yourself in simple terms, what sort of reaction would be expected?","['creation of art', 'being slapped', 'laughter', 'embarrassment', 'people will understand']",E
+"He was contemplating a choice, what was he doing the following day?","['relaxing', 'relaxation', 'headache', 'deciding', 'action']",D
+What  is likely to happen to ice in the sun?,"['cool water', 'cool drink', 'cool off', 'nothing', 'become water']",E
+If someone suffers from hunger but has nothing in the house what do they have to do?,"['eat breakfast', 'buy food', 'have lunch', 'call a friend', 'eat hamburger']",B
+"James didn't have any teabags at home, nor did he have any cold tea.  He wanted tea, though, he rushed out and went where?","['internet cafe', 'refrigerator', 'teapot', 'cupboard', 'coffee shop']",A
+"The potato was sliced and  fried by the cook, what was he looking to make?","['potatoes', 'root cellar', 'french fries', 'prince edward island', 'main course']",C
+Where is a good place to obtain a ladder?,"['apple orchard', 'backyard', 'hardware store', 'garage', 'roof']",C
+"If someone is not able to reply to you, they could be?","['send', 'email', 'question', 'mute', 'deaf']",D
+Who is someone competing against?,"['effort', 'time', 'opponent', 'skill', 'competition']",C
+Where is the flu likely to result in illness?,"['stomach', 'airplane', 'elderly person', 'body', 'hospital']",A
+When is an electric storm likely to occur?,"['summer', 'weather report', 'america', 'hot', 'tropics']",A
+Where do you dip a spoon into?,"['hole', 'glass of iced tea', 'kitchen drawer', 'table setting', 'bowl of soup']",E
+What place is not interesting to children?,"['classroom', 'toy store', 'school', 'soccer game', 'dinner']",A
+"The person got called down as a contestant, he ran down the aisle very what?","['successful in life', 'agitated', 'excited', 'eat every day', 'compliments']",C
+Where would you keep a cardboard box full of car parts?,"['post office', 'garage', 'trash', 'under bed', 'warehouse']",B
+What does every human want with someone else?,"['healthy relationship', 'wet suit', 'moving car', 'school', 'fight']",A
+What happens to people over time?,"['use money', 'feel cold', 'play games', 'believe in god', 'become old']",E
+Being able to forgive is a way to be what?,"['learn', 'give hug', 'happiness', 'nice to', 'sex']",D
+"He opened up the advertisement after reading the subject line, what kind of ad was it?","['magazine', 'mail', 'la ville', 'web page', 'email']",E
+A person's hand hurts after hitting the bottle. What might happen to the bottle?,"['alcoholism', 'breaking', 'fly', 'nausea', 'ticket']",B
+What would you tell ali to do if he bumps into you when you are walking?,"['work hard', 'slow down', 'wear shoes', 'sell products', 'speed up']",B
+"If you ate some turkey, what could happen to you?","['indigestion', 'sleepiness', 'thanksgiving', 'throwing up', 'heartburn']",B
+What could cause a driving car to stop?,"['on time', 'pollution', 'death', 'sickness', 'run out of gas']",E
+"When one is stabbing to death another, they might look around and realize what a what they have made?","['bleeding', 'knife', 'gruesome', 'killing', 'mess']",E
+What's a bad thing people do?,"['make friends', 'learn from each other', 'stand upright', 'use drugs', 'donate to charity']",D
+Where would you get some maps that you own?,"['bookstore', 'library', 'electrical circuit', 'cabinet', 'important when traveling']",D
+After he got hired he hoped for success at his what?,"['vocation', 'new job', 'michigan', 'working hard', 'manual']",B
+How does a person go to space?,"['building', 'space shuttle', 'car', 'fairy tale', 'street corner']",B
+Frankie found a bone in her good.  It probably belonged to what?,"['father', 'arm', 'cow', 'museum', 'human body']",C
+Remembering past successe is likely to cause what?,"['problems', 'crying', 'inspiration', 'trauma', 'nightmares']",C
+Where can peanut butter be stored?,"['container', 'supermarket', 'pantry', 'sandwich', 'jar']",C
+What can help you with an illness?,"['elderly person', 'sick person', 'hospital', ""doctor's office"", 'stomach']",D
+What would you be doing if you are having lunch?,"['eating', 'hunger', 'burp', 'laughing', 'food']",A
+Everybody began performing once their director stated what?,"['fear', 'injury', 'happiness', 'action', 'cut']",D
+When you travel you should what in case of unexpected costs?,"['go somewhere', 'energy', 'spend frivilously', 'fly in airplane', 'have money']",E
+"James looked for koalas, but misunderstood and went to the wrong environment.  Where is it impossible to find koalas?","['jungle', 'great outdoors', 'siberia', 'queensland', 'wilderness']",A
+Where would someone keep a grandfather clock?,"['desk', 'exhibition hall', 'own bedroom', 'house', 'office building']",D
+"He was her uncle, and she was his what?","['aunty', 'niece', 'boy', 'older generation', 'aunts house']",B
+what does a person do to stay healthy?,"['fever', 'eat every day', 'excited', 'headache', 'expressive']",B
+If you turn off the music in a room with no other noise that room would be what?,"['silent', 'opera', 'silence', 'television', 'elevator']",A
+Getting a gift you wanted for you birthday will cause what state?,"['disappointment', 'angry', 'then have', 'being happy', 'headaches']",D
+What do people do to pass time when washing clothes?,"['money', 'watch tv', 'getting wet', 'study', 'singing']",E
+"While he was falling into a pile of broken glass, what did he fear?","['injury', 'being laughed at', 'breaking the glass', 'contact with', 'lacerations']",E
+"He had an index card he had to return, so where did he put it after finding the book he needed?","['inside the book', 'oral report', 'library', 'fileing cabnet', 'card catalogue']",E
+Where can you store you tent and keep it on your person?,"['sleep in while camping', 'camp ground', 'woods', 'bag', 'backpack']",E
+"The jury determined he was guilty of the crime, and decided that the judge must do what for the victim?","['conduct trial', 'serve justice', 'pass sentence', 'bring in verdict', 'go to war']",B
+"The audience listened to the orchestra play, where were they watching the performance?","['concert hall', 'museum', 'school', 'hockey game', 'sporting event']",A
+What is a good description of the sloth's native habitat?,"['basement', 'universe', 'amazonia', 'forest', 'tropical jungle']",E
+He wore out his dictionary as he worked on his what?,"[""determine word's definition"", 'thesaurus', 'eat cake', 'novel', 'encyclopedia']",D
+James found the sound relaxing.   It was so relaxing he almost did what despite his efforts?,"['deep breathing', 'worried', 'fall asleep', 'invigorating', 'feeling good']",C
+"The final boarding group was called, once everybody was in their seat the what could depart?","['theatre', 'in wedding hall', 'show', 'airplane', 'auditorium']",D
+Where are you if you're hearing a bass clarinet accompanying people singing in German?,"['orchestra', 'school band', 'music store', 'opera house', 'symphony']",D
+When do you get out of a bed?,"['footbed', 'during the day', 'awake', 'sleep', 'floor']",C
+Where can someone level up?,"['video game', 'garage', 'food court', ""carpenter's shop"", 'building']",A
+"His first big break wasn't with his band, but he played his musical instrument for the soundtrack of a what?","['magazine', 'case', 'concert hall', 'movie', 'orchestra']",D
+What is needed mentally to ready one's self to begin detailed work?,"['concentrate', 'shoes', 'apply for job', 'shave', 'shower']",A
+What do people want to feel while playing cards?,"['amusement', 'anger', 'win money', 'happiness', 'loss of interest']",A
+Why would a person be approached by a lot of people?,"['care about', 'compliments', 'know all', 'popularity', 'understand themselves']",D
+"If you want to learn about the world and understand the real reasons behind cultural norms and mores, you have achieved a sense of what?","['enlightenment', 'open mind', 'confusion', 'smartness', 'anger']",A
+"Billy was an astronaut.  When he looked at the world from space, how did it look?","['diverse', 'round', 'square', 'orange', 'complicated']",B
+"Sam needed to rest after a long day of work, but he didn't have time to sleep.   So instead he just went to the couch.  What might he do on the couch?","['pig out', 'lay down', 'go to bed', 'slow pace', 'relax']",B
+A strong laxative will help you keep what kind of bowel movements?,"['strongwoman', 'cake', 'regular', 'weak', 'fragile']",C
+What is the main purpose of farmers?,"['raise cattle', 'grow corn', 'farm land', 'drive tractors', 'supply food']",E
+"their dad told the kids to play games, he didn't like seeing them all just sitting around looking what?","['challenge', 'entertaining', 'have fun', 'bored', 'lazy']",D
+"Some people hate attending meeting, they're worried it'll bore and they will what?","['fall asleep', 'being laid off', 'result', 'understanding', 'have fun']",A
+Where could you put some olives if you want to cook them?,"['jar', 'pizza', 'refrigerator', 'oven', 'pressed for thier oil']",B
+"If want to drink something politely, what vessel should I use?","['use glass', 'open mouth', 'eat first', 'buy alcohol', 'coffee mug']",A
+What is often the function of ice?,"['cool water', 'cool drink', 'harm humans', 'become water', 'form crystals']",B
+Where would you find many varieties of plants including a rosebush?,"['kew gardens', 'garder', 'backyard', 'shop', 'beautiful garden']",E
+What type of word do you use as a preposition to someone?,"['pronoun', 'adjective', 'position', 'interjection', 'conjunction']",A
+"The children were running late for school, after eating breakfast they left behind their what?","['being satisfied', 'dirty dishes', 'bad breath', 'blue bus', 'gas']",B
+"Ficus are in the family Moraceae, and is part of what much broader spectrum?","['science class', 'garden', 'flowerpot', 'arboretum', 'plant kingdom']",E
+What are two people likely to do that three will not do?,"['believe in god', 'kiss', 'go hiking', 'group objects', 'make babies']",E
+What is helping likely to make someone have?,"['enjoyment', 'better world', 'good feelings', 'contentment', 'feel good about yourself']",C
+"The cow would come outside even after the storm had passed, it wouldn't leave the what?","['meat grinder', 'stable', 'red barn', 'gate', 'green field']",C
+What leads a person to check up on someone else when they are working?,"['schizophrenia', 'mistrust', 'annoying', 'executed', 'isolation']",B
+Sally waited in the rain with another person.  Both of them were waiting to do what?,"['make wine', 'cross street', 'wear jeans', 'take bus', 'take taxi']",D
+The general apologized for the confusion that led to loss of soldiers' lives. so what was happening that cause the deaths?,"['germany', 'class', 'war', 'quandry', 'opera']",C
+What might a person be watching if they see a man with a suitcase full of money?,"['baggage compartment', 'movie', 'subway', 'airplane', 'cargo hold']",B
+If no one wants chicken what round nourishment is a safe bet?,"['freezer', 'plate', 'pizza', 'beef', 'fast food restaurant']",C
+"A koala couldn't find it's usual haunts, so it made its home at the top of something else.  Where was the Koala?","['jungle', 'san diego zoo', 'great outdoors', 'pet shop', 'gum tree']",E
+"Some people really loved beer, they call it what gold?","['alcohol in', 'intoxicating', 'liquid', 'hair of the dog', 'harmful']",C
+What is in the milky way?,"['candy', 'stars', 'space', 'refrigerator', 'candy bar shelf']",B
+Where could you find passengers that are planning to travel to another continent?,"['car', 'bus depot', 'bus stop', 'library', 'airport']",E
+Spending time seeing artifacts listening to museum lectures will lead to what?,"['thinking', 'learning', 'angry', 'archeology', 'pleasure']",B
+"The employees were complaining about lack of air conditioning, so where did the boss decide to install it?","['on the tables', 'movie theatre', 'offices', 'car', 'house']",C
+You want strong steel cable in your what if you're going to be off road driving?,"['ground', 'ship', 'construction site', 'winch', 'tool box']",D
+Joe and John and sylvia were all running errands. They split up their tasks into blocks that were near each other and then each person took one block of tasks.  They did this because it gave them more what?,"['stress', 'aggravation', 'efficiency', 'freed up time', 'net gain']",C
+"Most animals get tired, and when they do they what?","['bite', 'groom', 'procreate', 'keep alive', 'lie down']",E
+Humans need shelter to survive.  They usually find shelter where?,"['underpass', 'homes', 'workplace', 'school', 'space shuttle']",B
+"The child pretended he was reading newspaper, he couldn't actually do it without what?","['patience', 'falling down', 'literacy', 'buying', 'knowing how to read']",E
+"The students were all told to sit quietly, the trouble child stayed quiet but would not what?","['listen', 'lay down', 'alone', 'meditate', 'sit down']",E
+"John was driving to work and running late, what did he experience as he walked through the door?","['impatience', 'sadness', 'anxiety', 'stress', 'boredom']",C
+"This was the high jumper's second and final attempt, he was doing what to break a record?","['leave', 'fail', 'finish', 'give up', 'trying']",E
+What is rain a type of?,"['snow', 'disneyland', 'air', 'weather', 'forest']",D
+"The robber wanted to conceal his pistol, where did he put it?","['police station', 'war', ""police officer's belt"", 'river', 'pants']",E
+"Sam lives in a ranch house, which is a bit of a sterotype where he lives.  Everyone from out of state thinks he's a cowboy.  Where might he live?","['west', 'california', 'hawaii', 'texas', 'montana']",D
+What has an accelerator and is owned by most people?,"['vehical', 'fuel system', 'accelerate', 'airplane', 'car']",E
+"He went to relax and be in nature more than anything, he didn't go fishing just to what?","['catching fish', 'wade in', 'catch fish', 'fall into water', 'sleep']",C
+Billy turned off the water by using the diaphragm.  A diaphragm is a type is what?,"['drugstore', 'human', 'bivalve', 'valve', 'gas pump']",D
+"The real estate alienated people, what did she need to learn to be?","['deceive', 'charming', 'manipulate', 'lie', 'train']",B
+What does a person get out of a pinata?,"['contraceptives', 'well fed', 'candies', 'own house', 'fairness']",C
+How will you communicate if you are far away from who you want to communicate with?,"['think', 'talk with people', 'talk to people', 'speak out', 'send email']",E
+"Sometimes when people think some wrongdoing has ocurred in government, how do they react?","['talk to each other', 'cook food', 'demand justice', 'learn from each other', 'share food']",C
+Where would you get a pen if you do not have one?,"['briefcase', 'desk drawer', ""friend's house"", 'pocket', 'sidewalk']",C
+He decided to speak up and be what about the written assignment the students found unfair?,"['verbal', 'aforewritten', 'unwritten', 'silent', 'oral']",A
+John had a gun but he set it aside.  It wasn't helpful.  He needed to build a fire.  Why did he need a fire?,"['murder', 'warm hands', 'harm', 'warm up', 'park']",D
+"The friends enjoyed getting together to play cards, even though one of them always won because he was what?","['winning', 'bored', 'have fun', 'excellent', 'good at']",E
+Simon was meeting Jane that afternoon.  This meant that he needed to be finished with his project by when?,"['evening', 'before lunch', 'after', 'morning', 'after']",B
+What do you do to get ready to compete in body building?,"['smart', 'sign up', 'train', 'good at', 'start']",C
+What does a person try to do in a dangerous situation?,"['compliments', 'stay alive', 'high wages', 'husband or wife', 'talk fast']",B
+Most people make stupid assumptions that are based on their prejudices.  What might they do instead to achieve better outcomes?,"['set table', 'think', 'read books', 'play games', 'lie']",B
+What does a person sometimes do after they finish secondary education?,"['enter college', 'feel lonely', 'cross street', 'pass exams', 'graduate from high school']",A
+Hitting what is likely to cause broken glass in a car?,"['field', 'bridge', 'bottom of sea', 'street', 'wall']",B
+"The inspector was agreeing with the factory protocols, what was the status of the factory?","['compliance', 'eligible', 'contract', 'harmony', 'friendship']",A
+What sort of hall do you have a large meeting in?,"['church', 'conference', 'dormitory', 'large building', 'library']",B
+What businesses  serve liquor?,"['bar', 'cabinet', 'fraternity house', 'soft drink', 'state farm']",A
+Where would you expect to find popcorn in a public place?,"['movies', 'show', 'see work', 'movie theater', 'soccer game']",D
+"There was only one place that specialized in sports equipment in the town, what seemed really had a shop for everything?","['school', 'sears', 'arena', 'mall', 'grocery']",D
+If someone has a strong feeling of greed and wants to make some quick money what might they try to do?,"['play poker', 'dominate world', 'advance into battle', 'conquer opponent', 'make friends']",A
+What kind of building has many a book written in Hebrew?,"['library', 'classroom', 'library of congress', 'suitcase', 'synagogue']",E
+If you need a restroom while on the road where can you stop?,"['rest area', 'library', 'resturant', 'office building', 'gas station']",A
+Which side of Africa is the Indian Ocean on?,"['earth', 'west', 'asia', 'east', 'southern hemisphere']",D
+Where are you likely to find an art gallery?,"['london', 'downtown area', 'large city', 'middle of town', 'frankfurt']",C
+"With elderly resident, Illness is a common way a stay ends where?","['hospital', 'sick person', 'grave yard', 'nursing home', 'brain']",D
+If you're going fishing what do you need to buy?,"['tackle', 'fishing rod', 'bate', 'boat', 'fishing pole']",C
+"David was lost but he couldn't remember where he put the map.  He knew that he had it the last time he stopped.  He remembered getting out his toothbrush and brushing, then putting everything up. Where might the map be?","['atlas', 'rest area', 'posession', 'heaven', 'suitcase']",E
+"A person needs to breathe to survive, but they also need what two things to thrive?","['freedom of expression', 'freedom of information', 'hugs', 'own house', 'food and water']",E
+"Billy didn't make change for John, in spite of the resolution,  because John used his phone instead of what?","['unpleasant', 'tradition', 'laptop', 'stagnation', 'paper money']",E
+What type of place has stopped giving out plastic shopping bags?,"['retail store', 'restaurant', 'mini mart', 'grocery store', 'home']",D
+Where does light come from?,"['hope', 'universe', 'attic', 'ocean', 'desk']",B
+A large river drains into a tropical forest where?,"['countryside', 'channels', 'amazon basin', 'temperate zone', 'national park']",C
+What do all people have at first but later might not have?,"['mentality', 'feelings', 'muscles', 'brains', 'parents']",E
+"I was entertained while watching film, what is my reaction to it?","['laughter', 'like', 'masturbation', 'joy', 'erection']",B
+Why do you create art?,"['creative', 'express yourself', 'inspires', 'feeling of accomplishment', 'have fun']",B
+How will a teacher begin projects for students required to work together?,"['state facts', 'teach pupils', 'group students', 'better knowledge', 'dividing students']",C
+"He had eaten a lot of asparagus, when he was urinating next he was overcome with what?","['great relief', 'easement', 'unpleasant odors', 'taste of asparagus', 'arrest']",C
+"If a lawyer had to explain committing perjury, they might explain it as simply telling what?","['guilt', 'testify', 'commit crime', 'joining a jury', 'lies']",E
+If you are starting a fire on purpose and are caught what will happen?,"['death', 'burns', 'warmth', 'go to jail', 'get a reward']",D
+What is likely the result of remembering a deceased friend?,"['problems', 'inspiration', 'crying', 'knowledge', 'trauma']",C
+Blue read material outside of his comfort zone because he wanted to gain what?,"['new perspective', 'entertained', 'understanding', 'hunger', 'tired eyes']",A
+James didn't have much respect for Sarah. He spoke to her how?,"['contumely', 'disparagement', 'abhor', 'quietly', 'ignoring']",A
+How can a person destroy a car after becoming inebriated?,"['being high on drugs', 'drunkenness', 'talking nonsense', 'drunk driving', 'automobile accidents']",E
+"The detective was finding information from witnesses, why would he do that?","['fun', 'ulcers', 'get answers', 'happiness', 'power']",C
+If you're look at a black and white photograph that isn't recent it is likely what?,"['long time', 'later', 'long ago', 'old', 'ancient']",D
+What kind of furniture would you put stamps in if you want to access them often?,"['cabinet', 'desk', 'drawer', 'bedbox', 'suitcase']",B
+What often happens to the knowledge base of someone who is learning?,"['intelligence', 'overconfidence', 'knowing more', 'better understanding', 'growth']",E
+What is another name for eatery?,"['commercial building', 'drinkery', 'mall', 'town', 'restaurant']",E
+What type of dwelling would a small dog like to live in?,"['bathroom', 'animal shelter', 'georgia', 'big house', 'basket']",D
+What is the result of having a lunch that is sizable?,"['give up', 'obesity', 'feeling satisfied', 'get sleepy', 'feel full']",E
+"When young people are bored and want to recreate, what do they do?","['play ball', 'choose life', 'talk to each other', 'play outside', 'write programs']",D
+John needed to go across the country so he ordered tickets online and got into his car.  Where might he be going?,"['train station', 'opera', 'car rental shop', 'show', 'race track']",A
+"The lady fumbled in her purse for change she didn't have, the person beyond offered a helping hand in what?","['heart', 'kindness', 'satisfaction', 'pay', 'happiness']",D
+Though advertised as pet friendly her new what she was moving to wouldn't allow her small dog?,"['trailer park', 'germany', 'apartment complex', 'basket', ""grandmother's house""]",C
+"While working he injured himself, his coworker said he should do what more?","['accomplishment', 'complain', 'concentration', 'take a vacation', 'pay attention']",E
+"They were making sauerkraut, the instructor explained the liquid should be above the cabbage in the what?","['jar', 'drinking glass', 'pot', 'container', 'can']",A
+"If a human wants to be in a warm place, where is a good place to be?","['battle', 'doctor', 'mexico', 'workplace', 'in the fridge']",C
+Where are you likely to find personal books?,"['classroom', 'library', 'shelf', 'cabinet', 'desktop']",E
+Where is a pack horse likely to work?,"[""women's literature"", 'race track', 'belmont park', 'dude ranch', 'a movie']",D
+Where would you put a tissue holder if you have a cold and plan to stay inside?,"['car', 'convenient spot', 'bathroom or bedroom', 'swimming pool', 'airplane']",B
+What is learning about the world and how it works likely to cause?,"['pleasure', 'laughter', 'anger', 'loss of innocence', 'sadness']",D
+What is necessary for bathing?,"['suntan lotion', 'reading newspaper', 'using soap', 'cleanliness', 'slip and fall']",C
+"I went to eat in a restaurant, but I left because the person at the front wasn't what?","['drinking wine', 'make reservations', 'polite', 'spit on me', 'prepared to pay']",C
+Where is a good place to have a fireplace in a house?,"['big house', 'train', 'cabin', 'living room', 'home']",D
+"She began to play violin at a young age, she had a passion to do what?","['inspiring', 'like music', 'be musician', 'make music', 'tune']",D
+"John didn't like going to the square, but he did anyway.   Where might the square be?","['geometry', 'circle', 'town center', 'fifties', ""carpenter's tool box""]",C
+Sarah was cooking thick gravy in her saucepan because she wanted some authentic soul food.  Where might Sarah live?,"['kitchen cupboard', 'italian restaurant', 'georgia', 'south', 'boil vegetables']",C
+What can be the result of too much lunch too often?,"['sickness', 'obesity', 'heartburn', 'spending money', 'bloat']",B
+What does the D in DRC stand for?,"['dictatorship', 'democracy', 'democracy', 'state', 'democratic']",E
+Where would you sit in a chair to watch four-legged animals complete?,"['bookstore', 'house', 'race track', ""friend's house"", 'building']",C
+"Many prefer a happy and clean home, but for some lazy people doing housework is one big what?","['asthma', 'headache', 'work', 'arguments', 'boredom']",B
+Where is tomato sauce delicious?,"['market', 'refrigerator', 'grown in vegetable garden', 'pizza', 'cake']",D
+Where in your home would you normally keep your toothpaste?,"['mouth', 'bathroom', 'living room', 'medicine cabinet', 'suitcase']",B
+"If a person does something to hurt someone else, they might do what?","['feel sorry', 'trust god', 'cross street', 'ride a bike', 'lend money']",A
+If you must remember facts for a test you must do what while studying?,"['not forget', 'know', 'concentrate', 'memorize', 'fry up badger fillets']",C
+Where might a soldier be honored?,"['war zone', 'white house', 'guns', 'battlefield', 'tent']",B
+Jealousy is not uncommon when to people do what with each other?,"['wage war', 'compete', 'destroy relationship', 'compete', 'judge']",B
+"The school dress code was strict, all girls had to wear a what?","['pants', 'trousers', 'pant', 'long skirt', 'naked']",D
+He bought a warranty for the fragile objects just it case they what?,"['sound well', 'become broken', 'patch up', 'disappear from sight', 'gain speed']",B
+Billy liked driving cars.  He was good at it.  But he was rattled ever since his father experienced what?,"['transportation', 'pollution', 'stress', 'death', 'go somewhere']",D
+If you were to make a new copy an original sculpture what have you made?,"['copy', 'derivative', 'replica', 'remake', 'reproduction']",E
+What will a person have when very happy?,"['own car', 'be rich', 'catch cold', 'believe in god', 'experience joy']",E
+Where can you get gasoline?,"['power mower', 'boat', 'refineries', 'gas station', 'oil rig']",D
+"If you choose to fly in an airplane, it normally means you have to?","['like bird', 'get home', 'go half an hour away', 'go someplace', 'go far']",E
+What does someone feel after running twenty six miles?,"['sore feet', 'death', 'twenty six', 'feel tired', 'short breath']",D
+How much water would there be if there was not a little amount of water?,"['bog', 'big', 'rain', 'lot of', 'large']",D
+What are candles good for eliminating?,"['shelf', 'board', 'church', 'table', 'dark']",E
+What could have a title on it which takes up a large percentage of the space?,"['magazine article', 'safe deposit box', 'indicating accomplishment', 'indicating identity', 'library']",A
+What do I cook on the stove when I want to make tacos?,"['brown meat', 'mexico', 'open can', 'bake bread', 'warm food']",A
+"if you cogitate on something for a long time, you can get this feeling?","['might understand', 'enjoy', 'sit comfortably', 'think about things', 'get irritated']",A
+A ferret would probably growl if it is in what kind of state?,"['outdoors', 'pair of trousers', 'confusion', 'bad mood', 'classroom']",D
+"She was giggling and flirting, his mustache elicited what for her?","['joyfulness', 'smile', 'getting excited', 'enthusiasm', 'sexual attraction']",E
+What is the opposite of ordinary?,"['strange', 'special', 'unbelievable', 'exceptional', 'weird']",D
+What can kissing in November cause?,"['sexual stimulation', 'arousal', 'catch cold', 'get cold', 'sex']",C
+What will happen if you are successful when committing suicide?,"['scars', 'being born', 'sorrow', 'misery', 'kill yourself']",E
+"He said he also wanted in, he threatened to tattle what?","['differently', 'mere', 'only', 'otherwise', 'anyway']",D
+Joe wasn't prepared to wage war. He had not raised what?,"['weapons', 'asserting power', 'plans', 'energy', 'armies']",E
+Where would you find a dictionary near young people getting lessons?,"['shelf', ""friend's house"", 'table', 'library', 'classroom']",E
+"Laura and Bob are a married couple who have begun reaching tentative agreement regarding their  sexual incompatibility.  They love each other and want to remain together, but have decided that they can see other people to fulfill their needs as long as they are honest about it.  Then entire negotiation is being done with a surprising amount of what given the subject matter?","['calmness', 'compromises', 'fucking', 'anger', 'satisfaction']",A
+Who is someone you might need when you are stopping being married to spouse?,"['trouble', 'lawyer', 'judge', 'civil authorities', 'friends']",B
+"If I want to find more information about things in general, what am I seeking?","['increased knowledge', 'knowing more', 'wisdom', 'gaining knowledge', 'headaches']",A
+What stadium is there where men once fought with spears?,"['rome', 'college town', 'playing sports', 'large city', 'hold concert']",A
+What is best for a rosebush?,"['temperate climate', 'botanical gardens', 'flower garden', 'front lawn', 'hedgerow']",A
+Who was the head of the branch yelling at?,"['owner', 'foot', 'subordinate', 'base', 'point']",C
+What is someone trying to get by going to bed?,"['rest', 'making love', 'insomnia', 'gold', 'pregnancy']",A
+where do humans go to escape cities?,"['country', 'movie theatre', 'country', 'park', 'university']",A
+Where can someone enjoy ice cream in the dark?,"['party', 'bedroom', 'movie', 'freezer', 'disneyland']",C
+"He was in a cabin in the woods, through the window he saw a fox where?","['indiana', 'england', 'outside', 'on the wall', 'picture']",C
+Billy first used a spa when he had a torn ankle and his doctor recommended that he go where?,"['health centre', 'house', 'leave', 'country club', 'backyard']",A
+Why might someone think killing is justified?,"['pleasure', 'punishment', 'pleasure', 'dies', 'investigation']",B
+What negative effect can competing in a chess game on a cold day have?,"['enemies', 'perform better', 'sweat', 'tension', 'frostbite']",D
+"If somebody eating breakfast keeps it light, it may be because they don't want to go to work with a what?","['have energy', 'indigestion', 'better day', 'stomachache', 'full stomach']",E
+"She celebrated her success by giving a speech, where was she?","['graveyard', 'awards ceremony', 'various situations', 'vocation', 'working hard']",B
+"If you're using a trash can in the downtown district of a city, where may you be?","['water cooler', 'office', 'alley', 'walmart', 'park']",C
+Where is a bunch of grapes likely to be carried in?,"['fruit cocktail', 'wine press', 'a box', 'picnic basket', 'kitchen']",D
+According to what book did an apple tree lead to the downfall of man?,"['bible', 'spain', 'harry potter', 'new york', 'woods']",A
+What type of plant is the tallest found on earth?,"['tree', 'orbit', 'pressure', 'space', 'solar system']",A
+Sometimes the wealth of another country will cause the greed of the leadership to attempt to do what?,"['make friends', 'fight unfairly', 'conquer opponent', 'lie', 'play poker']",C
+Where could you see a sloth that only exists in your head?,"['picture book', 'bad dream', 'another place', 'universe', 'rainforest']",B
+If you tell you boss your suffering from boredom they'll likely tell you to get back to what?,"['dream', 'fiddle', 'watch film', 'see new', 'work']",E
+"They got their kid a nice new play mat, they put it in front of the TV in the where?","['pool', 'bathroom', 'school', 'living room', 'doorway']",D
+What could you buy in a bookstore?,"['carpeting', 'magazines', 'strip mall', 'city', 'applesauce']",B
+What does a performer stand on?,"['dance', 'opera', 'see saw', 'stage', 'party']",D
+What do you do when you're going to market?,"['buy food', 'see other people', 'buying vegetables', 'buy a fat pig', 'traveling']",A
+Why would a band be performing in front of a large number of people?,"['blaring', 'record album', 'alarm', 'play music', 'include drummer']",D
+Where might someone go to watch a flute?,"['park', 'symphony', 'orchestra', 'music shop', 'musical instrument store']",B
+"A child wants to play, what would they likely want?","['fall down', 'breathe', 'play tag', 'be dismembered by a chainsaw', 'become adult']",C
+Where might a bald eagle soar in clear skies?,"['nature preserve', 'mountainous area', 'in washington', 'soup', 'colorado in washington']",B
+"To learn something new, what is something an adult can take?","['college class', 'library', 'school', 'classroom', 'university']",A
+"After eating a dinner of uncooked chicken, what was felt by the poor man?","['indigestion', 'died', 'illness', 'feel better', 'throwing up']",C
+"The teen had bad posture, he never stood what?","['premium', 'straight', 'upright', 'sincere', 'superior']",C
+Where do you use a ball to knock things down?,"['bowling alley', 'pool table', 'gymnasium', 'playground', 'golf']",A
+"If you're in North America traveling an expressway toward the Atlantic Ocean, where are you traveling to?","['michigan', 'large city', 'state', 'american city', 'eastern united states']",E
+"The person was in the drawing room, but wanted to take his draft to be completed, where did he go?","['house in england', 'studio', 'large house', 'mansion', 'studio']",B
+"The boy is good at making friends, what happens as an immediate and obvious result?","['popularity', 'having friends', 'happiness', 'conflict', 'good feeling']",B
+Because of his anger he couldn't clearly explain or what?,"['cool off', 'write letter', 'get mad', 'illustrate point', 'destroy enemy']",D
+When you drive you may have to stop if someone is doing what?,"['while driving', 'check mirrors', 'walking', 'stop', 'passenger']",C
+What happens when you are drinking alcohol too fast?,"['intoxication', 'nausea', 'have fun', 'intelligence', 'vomiting']",B
+Where would a ticket help you to get to a different country?,"['train station', 'baseball stadium', 'lottery', 'movie', 'bus']",A
+Where would you likely find spare address labels?,"['trash', 'parcel', 'junk drawer', 'envelope', 'desk drawer']",E
+Where can you buy a complex system?,"['place', 'clothing store', 'computer store', 'human body', 'computer science']",C
+"The man and the woman likened their experience to police brutality.  But, really, they were just unable to do what regarding reality and lies?","['differentiate', 'hate', 'discriminate', 'contrast', 'distinguish']",E
+"People rushed down the aisles in confusion as someone shouted fire, what were they running out of?","['opera', 'mind', 'war', 'quandry', 'breath']",A
+Is has been speculated that a aliens could be communicating by doing this?,"['effort', 'farting', 'thinking', 'laugh', 'medium']",C
+Knitting can cause what kind of illness in the hand?,"['your', 'have fun', 'shredded hands', 'arthritis', 'relaxation']",D
+What do you need to do to keep a surprise party a surprise?,"['keep secret', 'laugh', 'enjoy', 'scare', 'send flowers']",A
+A beaver can destroy a machines functionality if they build their dam in this?,"['strip club', 'pocket', 'millpond', 'ontario', 'lake or river']",C
+"Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?","['disneyland', 'snow', 'windowsill', 'street', 'summer']",D
+"Animals suffer from some of the same things man does, it isn't uncommon for a pet to what?","['bathe', 'copulate', 'lick on face', 'die of cancer', 'bite']",D
+Letters are sometimes delivered by hand through one of these.,"['mail box', 'suitcase', 'front door', 'bowl', 'post office']",C
+"The judge did not take this part of the job lightly, the man was guilty but it was his passing sentence that condemned the man to what?","['go to jail', 'incarceration', 'intercourse', 'death', 'judgement']",D
+In the 1940's what happened when a radio show decided to pretend the Earth was invaded by Martians?,"['eat cake', 'laughter', 'daydreams', 'religion', 'people believe']",E
+"The person wanted to fix his car, what did he order?","['selling things', 'gas', 'feel resentful', 'machine part', 'cross street']",D
+"Seeing his idea become reality should have brought joy to James.  Instead, it only brought what emotion?","['over joy', 'fulfilling', 'inspiration', 'pain', 'excitement']",D
+Where could you find a shark before it was caught?,"['pool hall', 'tomales bay', 'marine museum', 'business', 'desert']",B
+What is a place with only one telephone book that many people can use?,"['desk', 'house', 'at hotel', 'bedroom', 'library']",E
+"If I am a spectator at a baseball stadium, what am I likely watching?","['sporting event', 'watch show', 'show', 'demonstration', 'watch game']",A
+What is likely to be the goal of telling many people about a new organization?,"['accomplish', 'learn about', 'money', 'notoriety', 'religion']",B
+"If I had more than one steel pen (e.g. 100,000), where would I store it?","['hand', 'warehouse', 'tv stand', 'back of farm', 'desk drawer']",B
+"He was on his first long haul and had gotten lost, he made sure to buy a map when he came across a what to stop at?","['backpack', 'truck stop', 'taco shop', 'amusement park', 'gas station']",B
+Having lunch too many times can result in what?,"['you die', 'obesity', 'feeling satisfied', 'feel full', 'digestion']",B
+"Every one of the kids felt average, but the teacher explained that each one was what?","['uncommon', 'an adult', 'bad', 'special', 'hyperbolic']",D
+"James had almost religious reverence for Bill, but Bill didn't return the feelings.  How did Bill treat James.","['profanity', 'content', 'irreverence', 'blasphemy', 'contempt']",E
+What do people do if they do not like each other?,"['believe in god', 'sing together', 'go swimming', 'part company', 'commit crimes']",D
+"After the sex she had spent the night at his house, he got up early to make and what?","['love another', 'coffee', 'smoke', 'eat breakfast', 'wait for']",D
+"If a person is trying to weasel out of punishment for a crime, where are they likely to be?","['court room', 'cherry tree', 'chicken coop', 'natural history museum', 'jail']",A
+Where do tourists go to see princesses in America?,"['waterfall', 'shopping mall', 'beach', 'disneyland', 'state park']",D
+"He tried to jump his car, what terminal did he connect to after connecting the positive terminal?","['bad', 'uncertain', 'possimism', 'negative', 'adverse']",D
+What would happen if you are loving another and he or she does not love you?,"['satisfaction', 'peace', 'love', 'happiness', 'heartache']",E
+"James was printing on his printer and the paper got stuck.  Then when it was unjammed, he had to clear what?","['ink', 'noise', 'use paper', 'hard copy', 'queue']",E
+Danny noticed a ceramic object on the table and picked a grape out of it.  What might have been on the table?,"['kitchen', 'painting of fruits', 'fruit basket', 'bowl of fruit', 'fruit stand']",D
+What is a sport that involves hurdles?,"['get tired', 'winning', 'have fun', 'hoping', 'running']",E
+Which region has the most famous temple?,"['jerusalem', 'jewish community', 'middle east', 'city', 'mosque']",C
+Where is the principal's office?,"['hallway', 'work', 'city', 'school building', 'skyscraper']",D
+Where must one wear a white shoe?,"['wedding', 'tennis', 'closet', 'left foot', 'house']",A
+How can you let someone know about your anger without hurting him or her?,"['release energy', 'destroy enemy', 'punch', 'write letter', 'lose your temper']",D
+What will god never do according to religion?,"['anything', 'judge people', 'work miracles', 'judge men', 'everywhere']",B

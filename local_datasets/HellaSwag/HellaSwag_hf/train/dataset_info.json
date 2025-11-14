@@ -1,0 +1,63 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "mcqa-bench-base",
+  "dataset_size": 7553258,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/nbalepur/mcqa-bench-base@0a2f712a62e9b2acc1e0bb9dbc819ae3f808ee3e/data/train-00000-of-00001.parquet": {
+      "num_bytes": 1980231,
+      "checksum": null
+    },
+    "hf://datasets/nbalepur/mcqa-bench-base@0a2f712a62e9b2acc1e0bb9dbc819ae3f808ee3e/data/test-00000-of-00001.parquet": {
+      "num_bytes": 2259923,
+      "checksum": null
+    }
+  },
+  "download_size": 4240154,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choices": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "dataset": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 11793412,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3492684,
+      "num_examples": 5933,
+      "dataset_name": "mcqa-bench-base"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 4060574,
+      "num_examples": 6409,
+      "dataset_name": "mcqa-bench-base"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
