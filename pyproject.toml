@@ -2,7 +2,7 @@
 name = "mcqa-bench"
 version = "0.1.0"
 description = "MCQA Benchmark Project"
-requires-python = "==3.11.*"
+requires-python = "==3.11.*" #Is this actually necessary?
 dependencies = [
     "datasets==4.1.1",
     "inspect-ai==0.3.132",

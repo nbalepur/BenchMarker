@@ -3,12 +3,11 @@
 
 num_samples: 2500
 
-
-skill_datasets: [/fs/clip-projects/rlab/nbalepur/mcqa-bench/local_datasets/ARC/train.csv,
-            /fs/clip-projects/rlab/nbalepur/mcqa-bench/local_datasets/MMLU/train.csv,
-            /fs/clip-projects/rlab/nbalepur/mcqa-bench/local_datasets/HellaSwag/train.csv,
-            /fs/clip-projects/rlab/nbalepur/mcqa-bench/local_datasets/Super_GPQA/train.csv,
-            /fs/clip-projects/rlab/nbalepur/mcqa-bench/local_datasets/truthful_qa/train.csv,
+skill_datasets: [local_datasets/ARC/train.csv,
+            local_datasets/MMLU/train.csv,
+            local_datasets/HellaSwag/train.csv,
+            local_datasets/Super_GPQA/train.csv,
+            local_datasets/truthful_qa/train.csv,
             ]
 
 # For learning skills, we re-use the difficulty metric configuration

@@ -1,6 +1,6 @@
 # Main configuration entry point for MCQA Benchmark
 # This file contains the core settings that users will primarily interact with
-dataset: /fs/clip-quiz/nbalepur/mcqa-bench/local_datasets/MMLU/train.csv
+dataset: local_datasets/MMLU/train.csv
 
 # Metrics to score or refine
 scoring_metrics: [writing_flaws, shortcuts, contamination, difficulty]

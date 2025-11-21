@@ -310,13 +310,13 @@ class PromptGenerator(Generator):
                     response = litellm.get_responses(response_id=response.id)
                     outputs = response.output
                     response_content = [o for o in outputs if o.type == "message"][0].content[0].text
-                    reasoning_content = '\n<nishant delimeter>\n'.join(
+                    reasoning_content = '\n<reasoning_delimiter>\n'.join(
                         s.text
                         for o in outputs if o.type == "reasoning"
                         for s in (o.summary if isinstance(o.summary, list) else [o.summary])
                     )
                     num_reasoning_tokens = response.usage.output_tokens_details.reasoning_tokens
-                    reasoning_content += f'\n<nishant end delimeter>\nReasoning tokens: {num_reasoning_tokens}'
+                    reasoning_content += f'\n<reasoning_end_delimiter>\nReasoning tokens: {num_reasoning_tokens}'
 
                 else:
 

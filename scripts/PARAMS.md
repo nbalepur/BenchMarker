@@ -113,30 +113,30 @@ These parameters are in `skills.yaml` and use the `--skills.` prefix:
 ### Minimal Override (Only Change What You Need)
 ```bash
 # Only change sample size - everything else uses YAML defaults
-python endpoints/cli.py --steps metrics --metrics.num_samples 20
+python cli.py --steps metrics --metrics.num_samples 20
 ```
 
 ### Common Overrides
 ```bash
 # Change dataset and models
-python endpoints/cli.py --steps metrics \
+python cli.py --steps metrics \
     --dataset /path/to/your/dataset.csv \
     --metrics.difficulty.models openai/gpt-4o,openai/gpt-4o-mini
 
 # Change IRT parameters
-python endpoints/cli.py --steps metrics \
+python cli.py --steps metrics \
     --metrics.difficulty.irt_model.num_draws 500 \
     --metrics.difficulty.irt_model.chains 4
 
 # Enable refinement
-python endpoints/cli.py --steps refine \
+python cli.py --steps refine \
     --refine.shortcuts.type rewrite \
     --refine.shortcuts.model openai/gpt-4o
 ```
 
 ### Pipeline with Multiple Overrides
 ```bash
-python endpoints/cli.py --steps skills,metrics,refine \
+python cli.py --steps skills,metrics,refine \
     --dataset /path/to/dataset.csv \
     --metrics.difficulty.models openai/gpt-4o \
     --metrics.num_samples 50 \

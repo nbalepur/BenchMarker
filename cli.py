@@ -89,7 +89,7 @@ overridden from the command line. Only specify parameters you want to change - e
 else uses the YAML defaults.
 
 For a complete list of all available parameters:
-    - See PARAMETER_REFERENCE.md for detailed documentation
+    - See PARAMS.md for detailed documentation
     - Run: python -c "from utils.setup import show_all_parameters; show_all_parameters()"
 
 Examples:
