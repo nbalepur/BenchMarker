@@ -112,6 +112,15 @@ class WebSearchPrompt(Prompt):
         
         return query
 
+class ContaminationPretrainPrompt(Prompt):
+    """Prompt for contamination pretrain - evaluates if model answers are contaminated"""
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+    def create_inference_prompt(self, question, choices, answer, search_results=None):
+        return question
+
 class PromptFactory:
 
     def __init__(self, args):        
@@ -120,6 +129,8 @@ class PromptFactory:
         self.args = args
         
     def get_prompt(self, prompt_type) -> Prompt:
+        if prompt_type == PromptType.contamination_pretrain:
+            return ContaminationPretrainPrompt(prompt_file=self.dir)
         if prompt_type == PromptType.contamination:
             return ContaminationJudgePrompt(prompt_file=self.dir)
         elif prompt_type == PromptType.shortcuts:

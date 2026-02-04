@@ -49,19 +49,19 @@ def get_accuracy_scorer_with_name(name: str):
                 )
                 answers = parse_answers(temp_state, multiple_correct=False)
                 set_choices_based_on_generated_response(temp_state, answers)
-                score = await choice()(temp_state, target)
+                score = await choice()(temp_state, Target(state.metadata.get('target', '') if state.metadata.get('target', '') else target))
                 return Score(
                     value=int(score.value == CORRECT),
                     answer=score.answer,
                     explanation=score.explanation,
-                    metadata={'name': name, 'cached': False}
+                    metadata={'name': name, 'cached': False, 'target': state.metadata.get('target', '')}
                 )
             except Exception as e:
                 return Score(
                     value=0,
                     answer='ERROR',
                     explanation=str(e),
-                    metadata={'cached': False}
+                    metadata={'cached': False, 'target': state.metadata.get('target', '')}
                 )
 
         return _score

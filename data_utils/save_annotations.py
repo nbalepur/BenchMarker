@@ -58,9 +58,17 @@ def create_sample_to_score_from_report_card_logs(report_card_logs, base_config, 
     # Create a set of sample IDs that were refined (if refinement_logs provided)
     refined_sample_ids = set()
     if refinement_logs:
-        for sample in refinement_logs[0].samples:
-            sample_metadata = sample.metadata
-            sample_id = sample.id
+        # Handle both lightweight and full refinement_logs
+        samples = refinement_logs[0].samples if hasattr(refinement_logs[0], 'samples') else refinement_logs[0]
+        for sample in samples:
+            # Handle both lightweight and full sample objects
+            if hasattr(sample, 'metadata'):
+                sample_metadata = sample.metadata
+                sample_id = sample.id
+            else:
+                # If it's already a dict-like object, use it directly
+                sample_metadata = sample if isinstance(sample, dict) else {}
+                sample_id = sample_metadata.get('id', None)
             
             # Check if this sample was actually refined by comparing content
             if 'question' in sample_metadata and 'old_question' in sample_metadata:
@@ -153,10 +161,17 @@ def merge_sample_to_score(original_sample_to_score, refined_sample_to_score, ref
 def save_refined_dataset(refinement_logs, base_config, refine_config, report_card_logs, should_save: bool = False):
     new_mcqs = []
     old_mcqs = []
-    requirements = []
-    for sample in refinement_logs[0].samples:
-        sample_metadata = sample.metadata
-        if sample_metadata['should_skip'] and 'question' not in sample_metadata: # skip questions that should be filtered
+    # Handle both lightweight and full refinement_logs
+    samples = refinement_logs[0].samples if hasattr(refinement_logs[0], 'samples') else refinement_logs[0]
+    for sample in samples:
+        # Handle both lightweight and full sample objects
+        if hasattr(sample, 'metadata'):
+            sample_metadata = sample.metadata
+        else:
+            # If it's already a dict-like object, use it directly
+            sample_metadata = sample if isinstance(sample, dict) else {}
+        
+        if sample_metadata.get('should_skip', False) and 'question' not in sample_metadata: # skip questions that should be filtered
             continue
 
         new_mcq = MCQ(question=sample_metadata['question'], choices=sample_metadata['choices_list'], answer=sample_metadata['target'])
@@ -165,15 +180,13 @@ def save_refined_dataset(refinement_logs, base_config, refine_config, report_car
         old_mcq = MCQ(question=sample_metadata['old_question'], choices=sample_metadata['old_choices_list'], answer=sample_metadata['old_target'])
         old_mcqs.append(old_mcq)
 
-        requirements.append('\n'.join(['- ' + req for req in sample_metadata['refinements']]))
-
     if should_save:
         saved_path = _save_dataset(
             [mcq.to_json() for mcq in new_mcqs], 
             base_config.get('dataset_save_dir'), 
             base_config.get('refine_run_name')
         )
-        save_annotations_excel(old_mcqs, new_mcqs, requirements, base_config)
+        save_annotations_excel(old_mcqs, new_mcqs, base_config)
     
     # Create sample_to_score from report_card_logs for caching original MCQ results
     sample_to_score = create_sample_to_score_from_report_card_logs(report_card_logs, base_config, refinement_logs)
@@ -181,12 +194,11 @@ def save_refined_dataset(refinement_logs, base_config, refine_config, report_car
     return MemoryDataset([Sample(input=mcq.question, choices=mcq.choices, target=mcq.answer) for mcq in new_mcqs]), sample_to_score
 
 
-def save_annotations_excel(old_mcqs, new_mcqs, requirements, base_config):
-    annot_df = {'old_mcq': [], 'refinements': [], 'new_mcq': [], 'Is Valid?': []}
-    for old_mcq, new_mcq, reqs in zip(old_mcqs, new_mcqs, requirements):
+def save_annotations_excel(old_mcqs, new_mcqs, base_config):
+    annot_df = {'old_mcq': [], 'new_mcq': [], 'Is Valid?': []}
+    for old_mcq, new_mcq in zip(old_mcqs, new_mcqs):
         annot_df['old_mcq'].append(old_mcq.to_prompt())
         annot_df['new_mcq'].append(new_mcq.to_prompt())
-        annot_df['refinements'].append(reqs)
         annot_df['Is Valid?'].append('')
     annot_df = pd.DataFrame(annot_df)
     

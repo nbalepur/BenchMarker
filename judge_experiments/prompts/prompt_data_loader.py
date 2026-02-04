@@ -212,7 +212,7 @@ class DataFetcherFactory:
 
     @staticmethod
     def get_data_fetcher(args: Any, prompt_type: PromptType):
-        if prompt_type in {PromptType.writing_flaws, PromptType.web_search, PromptType.shortcuts}:
+        if prompt_type in {PromptType.writing_flaws, PromptType.web_search, PromptType.shortcuts, PromptType.contamination_pretrain}:
             return JudgeDataFetcher(args=args)
         if prompt_type == PromptType.contamination:
             return JudgeDataFetcherWithSearch(args=args)

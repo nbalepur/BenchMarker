@@ -1,12 +1,30 @@
+# SINGLE_ANSWER_TEMPLATE_NO_QUESTION = """
+# Answer the following multiple choice question just by using the choices and without access to the question. Do this by deciding which option is the odd-one-out, and then guessing what the original/missing question was based on that.
+
+# <choices>
+# {choices}
+# </choices>
+
+# <format>
+# Return your output as valid JSON with the key "answer" which is one of {letters}.
+# {{
+#   "answer": "letter of the correct answer choice",
+#   "explanation": "how you arrived at the correct answer",
+#   "question": "what you guess is the missing question",
+# }}
+# Do not include anything else.
+# </format>
+# """.strip()
+
 SINGLE_ANSWER_TEMPLATE_NO_QUESTION = """
-Answer the following multiple choice question just by using the choices and without access to the question. Do this by deciding which option is the odd-one-out, and then guessing what the original/missing question was based on that.
+Answer the following multiple choice question just by using the choices and without access to the question. Use any strategy possible to come up with the correct answer, and then guess what the original/missing question was.
 
 <choices>
 {choices}
 </choices>
 
 <format>
-Return your output as valid JSON with the key "answer" which is one of {letters}.
+Return your output as valid JSON with the key "answer" which is one of {letters}, "explanation" which is how you arrived at the correct answer, and "question" which is what you guess is the missing question.
 {{
   "answer": "letter of the correct answer choice",
   "explanation": "how you arrived at the correct answer",

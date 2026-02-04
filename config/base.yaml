@@ -1,17 +1,19 @@
 # Main configuration entry point for MCQA Benchmark
 # This file contains the core settings that users will primarily interact with
-dataset: /fs/clip-quiz/nbalepur/mcqa-bench/local_datasets/MMLU/train.csv
+dataset: /fs/clip-projects/rlab/nbalepur/mcqa-bench/local_datasets/ARC/test.csv
 
 # Metrics to score or refine
-scoring_metrics: [writing_flaws, shortcuts, contamination, difficulty]
-refining_metrics: [writing_flaws, shortcuts, contamination, difficulty]
+scoring_metrics: [difficulty, shortcuts, writing_flaws]
+refining_metrics: [difficulty, shortcuts, writing_flaws]
 
 # Saving directories
 cache_dir: cache_logs
 dataset_save_dir: refined_dataset
 plot_dir: plots
-cache_type: cache # none | cache | overwrite
+cache_type: overwrite # none | cache | overwrite
 
-skill_run_name: anchor_large
-metric_run_name: large_scale_fixed
-refine_run_name: large_scale_fixed
+skill_run_name: anchor_rewriting_experiments
+metric_run_name: ARC_large_scale_fixed
+refine_run_name: ARC_large_scale_fixed_rewrite
+
+log_dir: ./rewrite_logs

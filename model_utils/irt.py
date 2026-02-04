@@ -1,10 +1,6 @@
 import os
-#os.environ['OMP_NUM_THREADS'] = '1'
 
-from data_utils.refine_dataset import IRTFilterType
-# Set PyTensor flags before importing pymc/pytensor
-# os.environ['PYTENSOR_FLAGS'] = 'cxx=,mode=FAST_RUN,linker=py,optimizer=None,on_opt_error=ignore'
-#os.environ['PYTENSOR_FLAGS'] = "cxx="
+from data_utils.refine_dataset import DifficultyRefineType
 
 from inspect_ai.dataset import Dataset
 from inspect_ai.log import EvalLog
@@ -302,7 +298,7 @@ def _apply_min_discrimination_filter(samples: List[Dict], item_params: Dict[str,
             filtered_samples.append(sample_info)
     return filtered_samples
 
-def _resolve_max_samples(filter_config: Dict[str, Any], filter_type: IRTFilterType, total_samples: int) -> int:
+def _resolve_max_samples(filter_config: Dict[str, Any], filter_type: DifficultyRefineType, total_samples: int) -> int:
     """Resolve the number of samples to keep based on max_size configuration."""
 
     type_config = filter_config.get(filter_type.value, {})
@@ -325,7 +321,7 @@ def _resolve_max_samples(filter_config: Dict[str, Any], filter_type: IRTFilterTy
     return max(1, min(total_samples, resolved))
 
 
-def filter_dataset_by_irt(dataset: Dataset, item_params: Dict[str, Dict[str, float]], filter_type: IRTFilterType, filter_config: Dict[str, Any], sample_to_score: Optional[Dict[int, Dict]] = None, min_discrimination: Optional[float] = None) -> Dict[str, Dataset]:
+def filter_dataset_by_irt(dataset: Dataset, item_params: Dict[str, Dict[str, float]], filter_type: DifficultyRefineType, filter_config: Dict[str, Any], sample_to_score: Optional[Dict[int, Dict]] = None, min_discrimination: Optional[float] = None) -> Dict[str, Dataset]:
     """
     Filter dataset based on IRT parameters.
     
@@ -357,10 +353,10 @@ def filter_dataset_by_irt(dataset: Dataset, item_params: Dict[str, Dict[str, flo
     if min_discrimination is not None:
         samples = _apply_min_discrimination_filter(samples, item_params, min_discrimination)
     
-    if filter_type == IRTFilterType.NONE:
+    if filter_type == DifficultyRefineType.NONE:
         return {"all": dataset}
     
-    if filter_type == IRTFilterType.SATURATION:
+    if filter_type == DifficultyRefineType.SATURATION:
         # Sort samples by difficulty (descending - hardest first)
         samples_with_difficulty = []
         for sample_info in samples:
@@ -375,7 +371,7 @@ def filter_dataset_by_irt(dataset: Dataset, item_params: Dict[str, Dict[str, flo
         samples_with_difficulty.sort(key=lambda x: x[1], reverse=True)
 
         total_samples = len(samples_with_difficulty)
-        num_samples = _resolve_max_samples(filter_config, IRTFilterType.SATURATION, total_samples)
+        num_samples = _resolve_max_samples(filter_config, DifficultyRefineType.SATURATION, total_samples)
 
         hard_samples = []
         for item in samples_with_difficulty[:num_samples]:
@@ -387,7 +383,7 @@ def filter_dataset_by_irt(dataset: Dataset, item_params: Dict[str, Dict[str, flo
 
         return {"hard": MemoryDataset(hard_samples), "all": dataset}
     
-    elif filter_type == IRTFilterType.INFORMATIVE:
+    elif filter_type == DifficultyRefineType.INFORMATIVE:
         # Sort samples by discriminability (descending - most discriminative first)
         samples_with_discriminability = []
         for sample_info in samples:
@@ -403,7 +399,7 @@ def filter_dataset_by_irt(dataset: Dataset, item_params: Dict[str, Dict[str, flo
         samples_with_discriminability.sort(key=lambda x: x[1], reverse=True)
         
         total_samples = len(samples_with_discriminability)
-        num_samples = _resolve_max_samples(filter_config, IRTFilterType.INFORMATIVE, total_samples)
+        num_samples = _resolve_max_samples(filter_config, DifficultyRefineType.INFORMATIVE, total_samples)
         
         top_samples = []
         for item in samples_with_discriminability[:num_samples]:
@@ -415,7 +411,7 @@ def filter_dataset_by_irt(dataset: Dataset, item_params: Dict[str, Dict[str, flo
         
         return {"informative": MemoryDataset(top_samples), "all": dataset}
     
-    elif filter_type == IRTFilterType.EFFICIENCY:
+    elif filter_type == DifficultyRefineType.EFFICIENCY:
         if sample_to_score is None:
             raise ValueError("Sample metadata is required for efficiency filtering")
         
@@ -431,7 +427,7 @@ def filter_dataset_by_irt(dataset: Dataset, item_params: Dict[str, Dict[str, flo
         samples_with_efficiency.sort(key=lambda x: x[1], reverse=True)
         
         total_samples = len(samples_with_efficiency)
-        num_samples = _resolve_max_samples(filter_config, IRTFilterType.EFFICIENCY, total_samples)
+        num_samples = _resolve_max_samples(filter_config, DifficultyRefineType.EFFICIENCY, total_samples)
         
         top_samples = []
         for item in samples_with_efficiency[:num_samples]:
@@ -442,6 +438,11 @@ def filter_dataset_by_irt(dataset: Dataset, item_params: Dict[str, Dict[str, flo
             top_samples.append(sample)
         
         return {"efficient": MemoryDataset(top_samples), "all": dataset}
+    
+    elif filter_type == DifficultyRefineType.ADD_DISTRACTORS or filter_type == DifficultyRefineType.BLOOMS_TAXONOMY:
+        # These are rewrite types, not filter types, so return the dataset unchanged
+        # Rewriting will be handled elsewhere in the refinement pipeline
+        return {"all": dataset}
     
     else:
         raise ValueError(f"Unknown filter type: {filter_type}")

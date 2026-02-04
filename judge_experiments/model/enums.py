@@ -1,6 +1,7 @@
 from enum import Enum
 
 class PromptType(Enum):
+    contamination_pretrain = 'contamination_pretrain'
     shortcuts = 'shortcuts'
     writing_flaws = 'writing_flaws'
     contamination = 'contamination'
@@ -8,6 +9,7 @@ class PromptType(Enum):
 
 class GenerationStrategy(Enum):
     prompt = 'prompt'
+    pretraining = 'pretraining'
     prompt_hf = 'prompt_hf'
     web_search = 'web_search'
 

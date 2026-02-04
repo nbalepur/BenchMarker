@@ -3,9 +3,11 @@ from judge_experiments.model.enums import GenerationStrategy, PromptType, Search
 
 from abc import ABC, abstractmethod
 import time
+import random
 import os
 import traceback
 import copy
+import requests
 
 import litellm
 from litellm.caching.caching import Cache
@@ -491,6 +493,79 @@ class WebSearchGenerator(Generator):
                 'error': str(e)
             }
 
+class PretrainingDetector(Generator):
+    """Web search generator that performs web searches and saves results"""
+
+    def __init__(self, args):
+        self.args = args
+        
+    def train(self, run_name, save_dir, train_dataset, val_dataset):
+        # No training needed for pretraining
+        pass
+
+    def save(self, save_dir):
+        # No model saving needed for pretraining
+        pass
+
+    def merge(self, adapter_dir, save_dir):
+        # No merging needed for pretraining
+        pass
+
+    def load(self, save_dir):
+        # No model loading needed for pretraining
+        pass
+
+    def upload(self, save_dir):
+        # No uploading needed for pretraining
+        pass
+
+    def generate(self, prompt):
+        """Generate web search results for the given prompt.
+        
+        Args:
+            prompt: The search query (should contain question and answer)
+            
+        Returns:
+            Dictionary with search results formatted as citations
+        """
+        try:
+            # Extract question and answer from prompt
+            # The prompt should be formatted as a search query
+            query = str(prompt)
+            payload = {
+                'index': self.args.model_name,
+                'query_type': 'count',
+                'query': query,
+            }
+            result = requests.post('https://api.infini-gram.io/', json=payload).json()
+
+            time.sleep(random.random())
+            
+            # Return results in the same format as other generators
+            return {
+                'response': result,
+                'cost': 0.0,  # Web search doesn't have LLM costs
+                'reasoning_trace': '',
+                'search_results': '',
+                'num_results': result['count'],
+                'search_type': '',
+                'success': True,
+                'error': None
+            }
+            
+        except Exception as e:
+            return {
+                'response': ["Error: " + str(e)],
+                'cost': 0.0,
+                'reasoning_trace': '',
+                'search_results': [],
+                'num_results': 0,
+                'search_type': '',
+                'success': False,
+                'error': str(e)
+            }
+
+
 class GeneratorFactory:
 
     def __init__(self, args):
@@ -499,6 +574,8 @@ class GeneratorFactory:
     def get_generator(self, generation_strategy: GenerationStrategy):
         if generation_strategy == GenerationStrategy.prompt:
             return PromptGenerator(self.args)
+        elif generation_strategy == GenerationStrategy.pretraining:
+            return PretrainingDetector(self.args)
         elif generation_strategy == GenerationStrategy.prompt_hf:
             return HuggingfacePromptGenerator(self.args)
         elif generation_strategy == GenerationStrategy.web_search:

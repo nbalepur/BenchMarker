@@ -65,6 +65,7 @@ def run_skills_eval(skills_cfg=None, base_cfg=None):
             "endpoints/run_skills.py@mcqa_skills",
             model=eval_model,
             limit=skills_cfg.get("num_samples", None),
+            log_dir=base_cfg.get("log_dir"),
             task_args={
                 "skills_config": skills_cfg,
                 "base_config": base_cfg,
@@ -95,6 +96,7 @@ def run_skills_eval(skills_cfg=None, base_cfg=None):
             "endpoints/run_skills.py@mcqa_skills",
             model=eval_model,
             limit=skills_cfg.get("num_samples", None),
+            log_dir=base_cfg.get("log_dir"),
             task_args={
                 "sample_to_score": sample_to_score,
                 "skills_config": skills_cfg,

@@ -92,6 +92,7 @@ def run_metrics_eval(metrics_cfg=None, base_cfg=None):
                 "endpoints/run_metrics.py@mcqa_metrics",
                 model=model,
                 limit=metrics_cfg.get("num_samples", None),
+                log_dir=base_cfg.get("log_dir"),
                 task_args={
                     "metrics_config": metrics_cfg,
                     "base_config": base_cfg,
@@ -124,6 +125,7 @@ def run_metrics_eval(metrics_cfg=None, base_cfg=None):
             "endpoints/run_metrics.py@mcqa_metrics",
             model=model,
             limit=metrics_cfg.get("num_samples", None),
+            log_dir=base_cfg.get("log_dir"),
             task_args={
                 "sample_to_score": sample_to_score,
                 "metrics_config": metrics_cfg,

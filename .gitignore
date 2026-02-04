@@ -142,7 +142,13 @@ local_datasets/load_*.py
 
 logs copy/
 experiment-logs/
+*logs/
 
 judge_experiments/results/
 
 uv.lock
+
+*.md
+*.tex
+
+utils/memory.py
