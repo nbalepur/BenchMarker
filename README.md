@@ -4,9 +4,6 @@
 
 This repository is the official implementation of the paper **BenchMarker: An Education-Inspired Toolkit for Highlighting Flaws in Multiple-Choice Benchmarks**.
 
-**Authors:** Nishant Balepur<sup>1,2</sup>, Bhavya Rajasekaran<sup>1</sup>, Jane Oh<sup>1</sup>, Michael Xie<sup>1</sup>, Atrey Desai<sup>1</sup>, Vipul Gupta<sup>3</sup>, Steven Moore<sup>4</sup>, Eunsol Choi<sup>2</sup>, Rachel Rudinger<sup>1</sup>, Jordan Boyd-Graber<sup>1</sup>  
-<sup>1</sup>University of Maryland &nbsp; <sup>2</sup>New York University &nbsp; <sup>3</sup>Scale AI &nbsp; <sup>4</sup>George Mason University
-
 We provide our code for detecting flaws in MCQA benchmarks and logic to rewrite multiple-choice questions (results coming soon 👀)
 
 ## Abstract
