@@ -1,6 +1,6 @@
-![BenchMarker Title](images/BenchMarker.png)
+# BenchMarker: Highlighting Multiple-Choice Flaws
 
-This repository is the official implementation of the paper **BenchMarker: An Education-Inspired Toolkit for Highlighting Flaws in Multiple-Choice Benchmarks**.
+This repository is the official implementation of the paper [**BenchMarker: An Education-Inspired Toolkit for Highlighting Flaws in Multiple-Choice Benchmarks**](https://arxiv.org/abs/2602.06221)
 
 ![BenchMarker Figure](images/main.png)
 
@@ -9,7 +9,7 @@ We provide our code for detecting flaws in MCQA benchmarks and logic to rewrite 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Quick Start](#quick-start)
+- [Quick Start](#installation)
 - [Parameters](#parameters)
 - [Project Structure](#project-structure)
 - [Citation](#citation)
@@ -210,7 +210,7 @@ BenchMarker/
 
 ## Citation
 
-If you find our paper on BenchMarker useful, we would appreciate it if you cite our paper!
+If you find our paper or BenchMarker useful, we would appreciate it if you cite our paper!
 
 ```bibtex
 @article{balepur2026benchmarker,
