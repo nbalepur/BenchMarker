@@ -2,9 +2,9 @@
 # This file contains the core settings that users will primarily interact with
 dataset: /fs/clip-projects/rlab/nbalepur/mcqa-bench/local_datasets/ARC/test.csv
 
-# Metrics to score or refine
-scoring_metrics: [difficulty, shortcuts, writing_flaws]
-refining_metrics: [difficulty, shortcuts, writing_flaws]
+# Metrics to score or refine -> difficulty, shortcuts, writing_flaws, contamination
+scoring_metrics: [writing_flaws]
+refining_metrics: [writing_flaws]
 
 # Saving directories
 cache_dir: cache_logs
@@ -16,4 +16,4 @@ skill_run_name: anchor_rewriting_experiments
 metric_run_name: ARC_large_scale_fixed
 refine_run_name: ARC_large_scale_fixed_rewrite
 
-log_dir: ./rewrite_logs
+log_dir: ./atrey_logs

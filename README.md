@@ -1,149 +1,178 @@
-# BenchMarker: An Education-Inspired Toolkit for Highlighting Flaws in Multiple-Choice Benchmarks
-
-**This repository is a work in progress!**
+![BenchMarker Title](images/BenchMarker.png)
 
 This repository is the official implementation of the paper **BenchMarker: An Education-Inspired Toolkit for Highlighting Flaws in Multiple-Choice Benchmarks**.
 
-We provide our code for detecting flaws in MCQA benchmarks and logic to rewrite multiple-choice questions (results coming soon 👀)
+![BenchMarker Figure](images/main.png)
 
-## Abstract
-
-Multiple-choice question answering (MCQA) is standard in NLP, but benchmarks lack rigorous quality control. We present BenchMarker, an education-inspired toolkit using LLM judges to flag three common MCQ flaws: (1) **contamination**—items appearing exactly online; (2) **shortcuts**—cues in the choices that enable guessing; and (3) **writing errors**—structural/grammatical issues based on a 19-rule education rubric. We validate BenchMarker with human annotations, then run the tool to audit 12 benchmarks, revealing: (1) flaws persist in MCQA benchmarks, especially automatically-made and crowdsourced data—we predict 47% of TruthfulQA appears online and 100% of HellaSwag violates multiple writing rules; (2) contaminated MCQs tend to inflate accuracy, while writing errors tend to lower it and change rankings beyond random; and (3) prior benchmark repairs address their targeted issues (e.g., lowering accuracy with LLM-written distractors) but inadvertently add new flaws (e.g., implausible distractors, many correct answers). Overall, flaws in MCQs degrade NLP evaluation, but education research offers a path forward. We release BenchMarker to bridge the fields and improve MCQA benchmark design.
+We provide our code for detecting flaws in MCQA benchmarks and logic to rewrite multiple-choice questions
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Quick Start](#quick-start)
-- [Outputs and score interpretation](#outputs-and-score-interpretation)
-- [Parameter Reference](#parameter-reference)
+- [Parameters](#parameters)
 - [Project Structure](#project-structure)
 - [Citation](#citation)
 
 ## Installation
 
-### Prerequisites
-
-- Python >= 3.11
-
-### Setup
+Our reporsitory requires Python 3.11 and can be clonsed as follows:
 
 ```bash
 git clone <repository-url>
 cd BenchMarker
-
-pip install -e .
 ```
 
-### Environment Variables
-
-Copy `.env.example` to `.env` and set API keys: OpenAI, Anthropic; for contamination (web search) set at least one of Google Custom Search, Brave, Tavily, Serper, or Exa. See `.env.example` for variable names.
-
-## Quick Start
-
-### 1. Run full pipeline (skills → metrics → refine)
+Requirements are in `pyproject.toml`, which we recommend installing using `uv`:
 
 ```bash
-python cli.py --steps skills,metrics,refine
+uv pip install .
 ```
 
-### 2. Run single steps
+Afterwards, rename `.env.example` to `.env` and set the API keys you want to use as environment variables:
+- For LLMs, we support LLM API keys from LiteLLM
+- If you want to run web search, we support: Google, Perplexity, Brave, Tavily, Serper, or Exa API keys
 
-```bash
-python cli.py --steps skills
-python cli.py --steps metrics
-python cli.py --steps refine
+## Quick Start: Main Entry Points
+
+Below, we discuss the main entry points for BenchMarker: scoring multiple-choice benchmarks, validating LLM judges, running item response theory, and rewriting multiple-choice questions
+
+### 1. Scoring Multiple-Choice Benchmarks
+
+To score a new dataset with BenchMarker, first load your dataset as either a CSV, JSONL, or Huggingface dataset with three columns:
+- `question`: the question stem
+- `choices`: a list of string choices
+- `answer`: a capital letter (e.g., A, B, C, D) that corresponds to the correct answer in `choices`
+
+We have example datasets in each format stored in [ARC](https://arxiv.org/abs/1803.05457) in `example_datasets/ARC*`
+
+Afterwards, run this script to score the dataset and obtain accuracy scores:
+
+```
+uv run python clip.py --steps metrics --dataset [path-to-dataset]
 ```
 
-### 3. Override config from CLI
+There are several configrable parameters in the `config/*` folder, described in the [Parameters](#parameters) section of the README later
 
-```bash
-python cli.py --steps metrics --dataset /path/to/data.csv --metrics.num_samples 20
+
+### 2. Validating LLM Judges
+
+We provide our scripts for validating our LLM judge scorers in `judge_experiments/`
+
+In `judge_experiments/judge_scripts/*`, we provide three main entry points:
+- `contamination.sh`: Validating the contamination scorer
+- `shortcuts.sh`: Validating the shortcuts scorer
+- `writing_flaws.sh`: Validating the writing flaws scorer
+
+Each script provides more details on which parameters are configurable. The `judge_experiments/validation_data/*` folders contains our human-annotated validation data
+
+### 3. Item Response Theory Evaluation 
+
+In the paper, we mainly use accuracy to evaluate models and estimate dataset difficulty, but [Item Response Theory](https://www.taylorfrancis.com/books/mono/10.4324/9780203056615/applications-item-response-theory-practical-testing-problems-lord) is another principled approach from educational testing that we support
+
+To run item response theory, you need to define the LLMs that you want to use as simulated test-takers, first estimating their skills:
+
+```
+uv run python cli.py --steps skills
 ```
 
-Config defaults live in `config/` (base.yaml, metrics.yaml, refine.yaml, skills.yaml). See `scripts/PARAMS.md` for full override examples.
+Afterwards, you can run the metrics script as normal, and BenchMarker will report:
+- `difficulty`: how hard the item was, learned from the abilities of models that were evaluated
+- `discriminability`: how well the item separates low-skill and high-skill models
+- `avg_accuracy`: the average accuracy of models (same as before)
 
-## Outputs and score interpretation
 
-### Where results are saved
+### 4. Rewriting Multiple-Choice Questions
 
-- **Cache** (`cache_dir`, default `cache_logs/`): Pickled eval logs and IRT data under `eval_logs/<run_name>/` and `irt_logs/<run_name>/`. Used to skip re-running when `cache_type` is `cache`.
-- **IRT parameters** (`cache_dir/irt/<run_name>/`): `*_params.json` with per-item difficulty and discriminability, and model abilities.
-- **Plots** (`plot_dir`, default `plots/`): IRT training plots (log-probability over samples) under `plot_dir/irt/<run_name>/` (e.g. `*_training_plot.pdf`).
-- **Refined dataset** (`dataset_save_dir`, default `refined_dataset/`): After the refine step (when saving is enabled), under `<dataset_save_dir>/<refine_run_name>/`: `fixed.jsonl`, `fixed.csv`, `hf_dataset/`, and `annotations.xlsx` (old vs new MCQs and refinements for human review).
+We also support preliminary investigations into rewriting multiple-choice questions:
 
-### What scores mean
+```
+uv run python cli.py --steps refine
+```
 
-| Metric | Score | Interpretation | d
-|--------|--------|----------------|
-| **Difficulty** (IRT) | `difficulty` | Higher = harder item (higher ability required to get 50% correct). |
-| | `discriminability` | Higher = item better separates high- vs low-ability models. |
-| **Shortcuts** | 0 | No shortcut detected (model did not get the right answer from choices-only, or the question the model inferred matched the original). |
-| | 1 | Shortcut detected (model answered correctly from choices-only and the question did not match the original). |
-| **Contamination** | 0 | Item appears to appear online. |
-| | 1 | No such match found (no_match or partial_match only). |
-| **Writing flaws** | 0–1 | Fraction of the 19 writing rules the item passes. 1 = all pass; 0 = all fail. Lower = more flaws. |
+This script allows you to use LLMs to fix the flaws detected previously, add new distractors to the question, or raise the question difficulty based on [Bloom's Taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy)
 
-Refinement uses these scores (and config cutoffs) to filter or rewrite items; e.g. items with shortcut score 1 or contamination 0 can be filtered or rewritten.
+Our initial attempts in the paper found this process was unreliable, so we're currently looking at ways to improve it. Stay tuned!
 
-In general, higher scores indicate less flaws and a better dataset!
+### Extra: Local UI to Track Runs
 
-## Parameter Reference
+One of the main reasons I wanted to use InspectAI is because it has a local UI to track experimental runs, which is so awesome. You can launch it as follows:
 
-### Base parameters (no prefix)
+```
+uv run inspect view
+```
 
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| --dataset | string | Path to dataset file (CSV) |
-| --metrics | string | Comma-separated: writing_flaws, shortcuts, contamination, difficulty |
-| --cache_dir | string | Cache directory |
-| --dataset_save_dir | string | Where to save refined datasets |
-| --plot_dir | string | Where to save plots |
-| --cache_type | string | none \| cache \| overwrite |
-| --skill_run_name | string | Run name for skills step |
-| --metric_run_name | string | Run name for metrics step |
-| --refine_run_name | string | Run name for refine step |
+This will open up a local URL (by default, [http://127.0.0.1:7575](http://127.0.0.1:7575)) where you can view your runs. Here's what it looks like for a run I did where I tracked writing flaws:
 
-### Metrics (--metrics. prefix)
+![InspectAI Local Runs](images/inspect.png)
+
+## Parameters
+
+The easiest way to set parameters for computing model skills, scoring multiple-choice benchmarks, and rewriting them is the `/config/` folder:
+- `base.yaml`: Applies to all three scripts
+- `skills.yaml`: Applies to the LLM skill measurements for IRT
+- `metrics.yaml`: Applies to the benchmark scoring scripts
+- `refine.yaml`: Applies to the MCQ rewriting scripts
+
+All parameters can also be overridden via CLI arguments
+
+### Base parameters (requires no prefix for `--` override)
+
+| Parameter | Description |
+|-----------|-------------|
+| --dataset | Path to your dataset |
+| --metrics | Comma-separated metrics to compute: writing_flaws, shortcuts, contamination, difficulty |
+| --cache_dir | Cache directory |
+| --dataset_save_dir | Where to save refined datasets |
+| --plot_dir | Where to save plots |
+| --cache_type | Whether to cache results for repeat runs (none \| cache \| overwrite) |
+| --skill_run_name | Run name for the skills step |
+| --metric_run_name | Run name for the metrics step |
+| --refine_run_name | Run name for the refine step |
+
+### Skills (requires `skills.` prefix for `--` override)
+
+| Parameter | Description |
+|-----------|-------------|
+| --skills.num_samples | Number of samples to use for skills evaluation |
+| --skills.skill_datasets | Comma-separated paths to datasets to estimate skills |
+| --skills.difficulty.models | LLMs used to estimate skills |
+| --skills.difficulty.irt_model.* | Same IRT options as metrics.difficulty (see below) |
+
+### Metrics (requires `metrics.` prefix for `--` override)
 
 | Parameter | Description |
 |-----------|-------------|
 | --metrics.num_samples | Number of samples for evaluation (null = all) |
-| --metrics.difficulty.models | Comma-separated model IDs for difficulty/IRT |
+| --metrics.difficulty.models | Comma-separated model IDs to use for difficulty/IRT estimates |
 | --metrics.difficulty.irt_model.num_draws | IRT MCMC draws |
 | --metrics.difficulty.irt_model.num_tune | IRT tune steps |
 | --metrics.difficulty.irt_model.chains | IRT chains |
 | --metrics.difficulty.irt_model.cores | IRT cores |
-| --metrics.shortcuts.model | Model for shortcuts (LLM judge) |
-| --metrics.shortcuts.num_attempts | Shortcuts attempts |
-| --metrics.contamination.model | Model for contamination |
-| --metrics.contamination.search_type | google \| perplexity \| brave |
-| --metrics.contamination.use_llm | Use LLM in contamination (flag) |
-| --metrics.writing_flaws.model | Model for writing-flaws judge |
+| --metrics.shortcuts.model | LLM judge used for shortcuts |
+| --metrics.contamination.model | LLM judge used for contamination |
+| --metrics.contamination.search_type | Search engine type to use (google \| perplexity \| brave) |
+| --metrics.contamination.use_llm | Whether to use an LLM to detect contamination or just rely on web page existence (--use_llm flag) |
+| --metrics.writing_flaws.model | LLM used for writing flaws judge |
 
-### Refine (--refine. prefix)
+### Refine (requires `refine.` prefix for `--` override)
 
 | Parameter | Description |
 |-----------|-------------|
-| --refine.difficulty.type | efficiency \| saturation \| informative \| none |
-| --refine.difficulty.min_discrimination | Min discrimination to keep |
-| --refine.difficulty.efficiency.max_size | Proportion or count to keep (efficiency) |
-| --refine.difficulty.informative.max_size | Proportion or count (informative) |
-| --refine.difficulty.saturation.max_size | Proportion or count (hardest items) |
+| --refine.difficulty.type | Whether to do any filtering based on LLM scores to make your dataset, efficient, less staurated, more informative (efficiency \| saturation \| informative \| none) |
+| --refine.difficulty.min_discrimination | For filtering via discriminativeness, the proportion or count of items to keep |
+| --refine.difficulty.efficiency.max_size | For filtering via efficiency, the proportion or count of items to keep |
+| --refine.difficulty.informative.max_size | For filtering via informativeness, the proportion or count of items to keep |
+| --refine.difficulty.saturation.max_size | For filtering via saturation (hardest items), the proportion or count of items to keep |
 | --refine.shortcuts.type | filter \| rewrite \| none |
-| --refine.shortcuts.model | Model for rewriting |
-| --refine.contamination.type | filter \| rewrite \| none |
-| --refine.contamination.model | Model for rewriting |
-| --refine.writing_flaws.type | filter \| rewrite \| none |
-| --refine.writing_flaws.model | Model for rewriting |
+| --refine.shortcuts.model | LiteLLM model used for rewriting |
+| --refine.contamination.type | Whether to filter, rewrite, or do nothing for contamination (filter \| rewrite \| none) |
+| --refine.contamination.model | LiteLLM model used for rewriting |
+| --refine.writing_flaws.type | Whether to filter, rewrite, or do nothing for writing flaws (filter \| rewrite \| none) |
+| --refine.writing_flaws.model | LiteLLM model used for rewriting |
+| --refine.num_distractors | How many distractors to add to the multiple-choice question |
+| --refine.num_blooms_levels | How many bloom levels to raise the question by (to heighten difficulty) |
 
-### Skills (--skills. prefix)
-
-| Parameter | Description |
-|-----------|-------------|
-| --skills.num_samples | Number of samples for skills eval |
-| --skills.skill_datasets | Comma-separated paths to skill datasets |
-| --skills.difficulty.models | Models for skills difficulty |
-| --skills.difficulty.irt_model.* | Same IRT options as metrics.difficulty |
 
 ## Project Structure
 
@@ -160,7 +189,7 @@ BenchMarker/
 │   ├── run_refine.py         # Filter/rewrite by metric
 │   └── run_skills.py         # Skills evaluation
 ├── scorers/                   # Per-metric scoring
-│   ├── difficulty_scorer.py  # IRT
+│   ├── difficulty_scorer.py  
 │   ├── shortcut_scorer.py
 │   ├── contamination_scorer.py
 │   └── writing_flaws_scorer.py
@@ -174,17 +203,24 @@ BenchMarker/
 │   ├── run_metrics.sh
 │   ├── run_refine.sh
 │   └── run_skills.sh
-├── local_datasets/            # Default/local MCQA data
+├── example_datasets/            # Example datasets for ARC
 ├── pyproject.toml
 └── README.md
 ```
 
 ## Citation
 
+If you find our paper on BenchMarker useful, we would appreciate it if you cite our paper!
+
 ```bibtex
-TBD
+@article{balepur2026benchmarker,
+  title={BenchMarker: An Education-Inspired Toolkit for Highlighting Flaws in Multiple-Choice Benchmarks},
+  author={Balepur, Nishant and Rajasekaran, Bhavya and Oh, Jane and Xie, Michael and Desai, Atrey and Gupta, Vipul and Moore, Steven James and Choi, Eunsol and Rudinger, Rachel and Boyd-Graber, Jordan Lee},
+  journal={arXiv preprint arXiv:2602.06221},
+  year={2026}
+}
 ```
 
 ## Contact
 
-For questions or issues, please open an issue on the repository or contact nbalepur@umd.edu
+For questions or issues, please open an issue on the repository or contact me at [nbalepur@umd.edu](mailto:nbalepur@umd.edu)

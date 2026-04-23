@@ -152,3 +152,5 @@ uv.lock
 *.tex
 
 utils/memory.py
+
+atrey_data
